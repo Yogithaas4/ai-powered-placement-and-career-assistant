@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data / DB / embeddings
+data/chroma_db/
+data/jobs_db/
+*.bin
+*.sqlite3
+*.pickle
+
+# Outputs
+data/recommendations/
+data/processed/
+
+# OS
+.DS_Store

@@ -1,0 +1,15 @@
+python-docx
+pdfminer.six
+spacy
+sentence-transformers
+chromadb
+skillNer
+pandas
+tqdm
+streamlit
+rouge-score
+sacrebleu
+bert-score
+
+# After pip install -r requirements.txt, also run:
+# python -m spacy download en_core_web_lg
