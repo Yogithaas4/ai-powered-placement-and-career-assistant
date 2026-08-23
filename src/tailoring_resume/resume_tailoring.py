@@ -17,7 +17,7 @@ from tailoring_resume.gemini_utils import call_gemini_json, gemini_is_configured
 
 CACHE_FILE = DATA_DIR / "processed" / "tailored_resume_cache.json"
 OUTPUT_DIR = RECOMMENDATIONS_DIR / "tailored_resumes"
-DEFAULT_MODEL = os.environ.get("TAILORED_RESUME_MODEL", "gemini-2.5-flash")
+DEFAULT_MODEL = os.environ.get("TAILORED_RESUME_MODEL", "gemini-3.6-flash")
 PROMPT_VERSION = "tailored-resume-v1"
 
 TAILORING_PROMPT = """

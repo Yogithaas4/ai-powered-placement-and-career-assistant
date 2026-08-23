@@ -1,7 +1,9 @@
 python-docx
 pdfminer.six
 spacy
-sentence-transformers
+sentence-transformers<5
+transformers<5
+numpy<2
 chromadb
 skillNer
 pandas
@@ -11,6 +13,7 @@ rouge-score
 sacrebleu
 bert-score
 google-generativeai
+ipython
 
 # After pip install -r requirements.txt, also run:
 # python -m spacy download en_core_web_lg

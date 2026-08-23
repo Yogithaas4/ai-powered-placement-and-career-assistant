@@ -15,7 +15,7 @@ from tailoring_resume.gemini_utils import (
 
 CACHE_FILE = DATA_DIR / "processed" / "llm_explanations_cache.json"
 COOLDOWN_FILE = DATA_DIR / "processed" / "llm_explanations_cooldowns.json"
-DEFAULT_MODEL = os.environ.get("CAREER_EXPLAINER_MODEL", "gemini-2.5-flash")
+DEFAULT_MODEL = os.environ.get("CAREER_EXPLAINER_MODEL", "gemini-3.6-flash")
 PROMPT_VERSION = "career-explainer-v2"
 
 DEVELOPER_PROMPT = """

@@ -26,9 +26,12 @@ HRE Generator Modes:
     "rule"  — uses entities + sections already extracted
     "llm"   — sends the query_string to Claude API for high-quality HRE
     "local" — uses local Ollama model for offline HRE
+    "gemini" — uses Google Gemini API
+    "groq"  — uses Groq OpenAI-compatible API
 """
 
 import json
+from pyexpat import model
 import time
 import hashlib
 import pickle
@@ -40,6 +43,7 @@ from pathlib import Path
 from typing import List, Dict, Optional, Literal
 from datetime import datetime
 import warnings
+import requests
 
 warnings.filterwarnings("ignore")
 
@@ -55,7 +59,7 @@ from config import DATA_DIR, RECOMMENDATIONS_DIR
 from resume_processing.step4_embeddings import embed
 from models.base_matcher import BaseMatcher
 
-HREMode = Literal["rule", "llm", "local"]
+HREMode = Literal["rule", "llm", "local", "gemini", "groq"]
 HRE_CACHE_FILE = DATA_DIR / "processed" / "hre_cache.pkl"
 
 # Blend Chroma cosine similarity into final score so rankings stay anchored to the
@@ -302,7 +306,7 @@ class LocalLLMHREGenerator(BaseHREGenerator):
 
     def generate(self, preprocessed: dict, job_title: str, job_description: str) -> str:
         profile = preprocessed.get("embeddings", {}).get("query_string", "")
-        
+
         prompt = self.USER_PROMPT_TEMPLATE.format(
             profile=profile,
             title=job_title,
@@ -327,8 +331,82 @@ class LocalLLMHREGenerator(BaseHREGenerator):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  ConFit v2 Engine
+#  Option D — Groq HRE (OpenAI-compatible API)
 # ══════════════════════════════════════════════════════════════════════════════
+
+class GroqHREGenerator(BaseHREGenerator):
+    """Generates hypothetical resume using Groq (free, OpenAI-compatible endpoint)."""
+
+    SYSTEM_PROMPT = (
+        "You are an expert resume writer. Given a job description and a candidate's "
+        "profile summary, write a concise hypothetical ideal resume (150-200 words) "
+        "for the ideal candidate. Write in resume style: implicit first-person, "
+        "realistic skills and experience matching the exact tools in the posting. "
+        "Output resume text only — no preamble, no explanation."
+    )
+
+    def __init__(self, model: str = "openai/gpt-oss-120b", api_key: Optional[str] = None, cache: bool = True):
+        import os
+        self.api_key = api_key or os.environ.get("GROQ_API_KEY", "")
+        if not self.api_key:
+            raise ValueError("GROQ_API_KEY is not set.")
+        self.model = model
+        self.cache_enabled = cache
+        self._cache: Dict[str, str] = {}
+        self._load_cache()
+
+    def _load_cache(self):
+        if self.cache_enabled and HRE_CACHE_FILE.exists():
+            try:
+                with open(HRE_CACHE_FILE, "rb") as f:
+                    self._cache = pickle.load(f)
+            except Exception:
+                self._cache = {}
+
+    def _save_cache(self):
+        if self.cache_enabled:
+            HRE_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+            with open(HRE_CACHE_FILE, "wb") as f:
+                pickle.dump(self._cache, f)
+
+    def generate(self, preprocessed: dict, job_title: str, job_description: str) -> str:
+        key = self._cache_key(job_title, job_description)
+        if key in self._cache:
+            return self._cache[key]
+
+        profile = preprocessed.get("embeddings", {}).get("query_string", "")
+        user_prompt = (
+            f"Candidate Profile:\n{profile}\n\n"
+            f"Job Title: {job_title}\n\nJob Description:\n{job_description[:2000]}\n\n"
+            f"Write a 150-200 word hypothetical resume for the ideal candidate."
+        )
+
+        import requests
+        hypo = ""
+        try:
+            resp = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"},
+                json={
+                    "model": self.model,
+                    "messages": [
+                        {"role": "system", "content": self.SYSTEM_PROMPT},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    "max_tokens": 400,
+                },
+                timeout=30,
+            )
+            resp.raise_for_status()
+            hypo = resp.json()["choices"][0]["message"]["content"].strip()
+        except Exception as e:
+            print(f"[Groq HRE] Error: {e} — falling back to rule-based")
+            hypo = RuleBasedHREGenerator().generate(preprocessed, job_title, job_description)
+
+        if hypo:
+            self._cache[key] = hypo
+            self._save_cache()
+        return hypo
 
 class ConFitV2Engine(BaseMatcher):
     """
@@ -339,7 +417,7 @@ class ConFitV2Engine(BaseMatcher):
         Retrieves top_k * fetch_multiplier candidates
     
     Stage 2 — HRE Re-scoring:
-        Generates hypothetical resumes (rule/llm/local)
+        Generates hypothetical resumes (rule/llm/local/gemini/groq)
         Re-scores candidates using HRE embeddings
     
     Runner-up penalty applied to smooth score gaps.
@@ -348,21 +426,24 @@ class ConFitV2Engine(BaseMatcher):
     MODEL_NAME = "ConFit v2"
 
     def __init__(self, jobs_db_dir: Optional[str] = None,
-                 jobs_csv: Optional[str] = None,
-                 hre_mode: HREMode = "rule",
-                 llm_api_key: Optional[str] = None,
-                 local_model: str = "mistral",
-                 local_base_url: str = "http://localhost:11434",
-                 hre_alpha: float = 0.65):
+             jobs_csv: Optional[str] = None,
+             hre_mode: HREMode = "rule",
+             llm_api_key: Optional[str] = None,
+             local_model: str = "mistral",
+             local_base_url: str = "http://localhost:11434",
+             hre_alpha: float = 0.65,
+             groq_model: Optional[str] = None,
+             groq_api_key: Optional[str] = None):
         """
         Initialize ConFit v2 engine.
         
         Args:
             jobs_db_dir: Path to job ChromaDB
             jobs_csv: Path to jobs CSV for metadata
-            hre_mode: "rule", "llm", or "local"
+            hre_mode: "rule", "llm", "local", "gemini", or "groq"
             llm_api_key: Anthropic API key (required for llm mode)
             local_model: Ollama model name (for local mode)
+        groq_api_key: Groq API key (for groq mode)
             local_base_url: Ollama base URL
             hre_alpha: Weight for HRE score in final ranking (0-1)
         """
@@ -391,6 +472,18 @@ class ConFitV2Engine(BaseMatcher):
             self.hre_gen = LLMHREGenerator(api_key=llm_api_key)
         elif hre_mode == "local":
             self.hre_gen = LocalLLMHREGenerator(model=local_model, base_url=local_base_url)
+        elif hre_mode == "groq":
+            self.hre_gen = GroqHREGenerator(
+                model=groq_model or "openai/gpt-oss-120b",
+                api_key=groq_api_key,
+            )
+        elif hre_mode == "gemini":
+            # Gemini mode can be added here if your current project already
+            # contains a GeminiHREGenerator implementation.
+            raise ValueError(
+                "hre_mode=\"gemini\" was selected, but GeminiHREGenerator "
+                "is not defined in this file."
+            )
         else:
             raise ValueError(f"Unknown hre_mode: {hre_mode}")
         
@@ -578,9 +671,15 @@ if __name__ == "__main__":
     parser.add_argument("--resume-index", type=int, default=0,
                         help="Index in JSON array to use")
     parser.add_argument("--top-k", type=int, default=20)
-    parser.add_argument("--hre-mode", default="rule", choices=["rule", "llm", "local"])
+    parser.add_argument(
+        "--hre-mode",
+        default="rule",
+        choices=["rule", "llm", "local", "gemini", "groq"],
+    )
     parser.add_argument("--api-key", default=None)
     parser.add_argument("--local-model", default="mistral")
+    parser.add_argument("--groq-api-key", default=None)
+    parser.add_argument("--groq-model", default="llama-3.3-70b-versatile")
     parser.add_argument("--hre-alpha", type=float, default=0.65)
     parser.add_argument("--output", default=None)
     args = parser.parse_args()
@@ -601,6 +700,8 @@ if __name__ == "__main__":
         hre_mode=args.hre_mode,
         llm_api_key=args.api_key,
         local_model=args.local_model,
+        groq_api_key=args.groq_api_key,
+        groq_model=args.groq_model,
         hre_alpha=args.hre_alpha,
     )
     

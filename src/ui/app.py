@@ -33,9 +33,10 @@ from skill_analysis.analysis import analyze_recommendations
 from skill_analysis.llm_explainer import explain_analysis, llm_is_configured
 from tailoring_resume.resume_tailoring import generate_tailored_resume
 from ui.match_evaluation import aggregate_metrics_for_models
+from models.hybrid_matcher import HybridMatcher
 
 MODEL_ORDER = ("ConFit v2", "ColBERT", "CrossEncoder")
-
+HYBRID_NAME = "Hybrid (RRF)"
 
 @st.cache_resource
 def _engine_confit(hre_mode: str, hre_alpha: float) -> ConFitV2Engine:
@@ -423,7 +424,7 @@ with tab_match:
                 batch = st.slider("Cross-encoder batch", 8, 64, 32, 8)
 
             with st.expander("ConFit v2 options", expanded=False):
-                hre_mode = st.selectbox("HRE mode", ["rule", "llm", "local"], index=0, key="hre_mode")
+                hre_mode = st.selectbox("HRE mode", ["rule", "llm", "local", "groq"], index=0, key="hre_mode")
                 hre_alpha = st.slider("HRE alpha (blend)", 0.0, 1.0, 0.65, 0.05, key="hre_alpha")
 
             try:
@@ -490,7 +491,21 @@ with tab_match:
                 chips.append(f"{'ready' if ready else 'pending'}: {model_name}")
             st.caption(" | ".join(chips))
 
-            view = st.radio("Preview list", MODEL_ORDER, horizontal=True, key="view_model")
+            if _all_models_ready():
+                if st.button("Compute Hybrid (RRF) ranking"):
+                    hybrid = HybridMatcher()
+                    fused = hybrid.recommend(
+                        st.session_state.recs_by_model,
+                        top_k=top_k,
+                        weights={"CrossEncoder": 1.3, "ColBERT": 1.0, "ConFit v2": 1.0},
+                    )
+                    st.session_state.recs_by_model[HYBRID_NAME] = fused
+                    st.success(f"Hybrid: {len(fused)} fused recommendations.")
+
+            preview_options = list(MODEL_ORDER)
+            if HYBRID_NAME in st.session_state.recs_by_model:
+                preview_options.append(HYBRID_NAME)
+            view = st.radio("Preview list", preview_options, horizontal=True, key="view_model")
             recs = st.session_state.recs_by_model.get(view) or []
             if not recs:
                 st.info(f"No results for **{view}** yet. Run that matcher above.")

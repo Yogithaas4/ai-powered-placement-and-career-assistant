@@ -15,3 +15,14 @@ data/processed/
 
 # OS
 .DS_Store
+# Env files / secrets
+.env
+.env.*
+*.key
+secrets.json
+local_secrets_backup.txt
+
+# Virtual environment
+.venv/
+venv/
+*.egg-info/

@@ -290,15 +290,16 @@ class JobIngestionEngine:
 
         return len(ids)
 
-    def ingest_pipeline(self, csv_path: Optional[str] = None) -> Tuple[pd.DataFrame, Dict]:
+    def ingest_pipeline(self, csv_path: Optional[str] = None, max_jobs: Optional[int] = None) -> Tuple[pd.DataFrame, Dict]:
         """
         Run the full ingestion pipeline: load → clean → embed → store.
 
         Args:
             csv_path: Path to jobs CSV
+            max_jobs: Optional cap on number of jobs ingested (safety valve)
 
         Returns:
-            Tuple of (jobs DataFrame, stored count)
+            Tuple of (jobs DataFrame, stats dict)
         """
         print("\n" + "="*60)
         print("  JOB INGESTION PIPELINE")
@@ -306,6 +307,11 @@ class JobIngestionEngine:
 
         # Load
         df = self.load_jobs_from_csv(csv_path)
+
+        if max_jobs:
+            df = df.head(max_jobs).reset_index(drop=True)
+            self.jobs_df = df
+            print(f"⚠️  Capped to first {len(df)} jobs (--max-jobs={max_jobs})")
 
         # Embed
         embeddings = self.build_job_embeddings()
@@ -354,16 +360,17 @@ class JobIngestionEngine:
 
 # ===================== STANDALONE FUNCTIONS =====================
 
-def quick_ingest(csv_path: Optional[str] = None) -> Tuple[pd.DataFrame, JobIngestionEngine]:
+def quick_ingest(csv_path: Optional[str] = None, max_jobs: Optional[int] = None) -> Tuple[pd.DataFrame, JobIngestionEngine]:
     """
     Quick ingestion function for CLI use.
 
     Usage:
         df, engine = quick_ingest()  # Uses default path
         df, engine = quick_ingest("path/to/jobs.csv")
+        df, engine = quick_ingest(max_jobs=2000)  # capped run
     """
     engine = JobIngestionEngine()
-    df, stats = engine.ingest_pipeline(csv_path)
+    df, stats = engine.ingest_pipeline(csv_path, max_jobs=max_jobs)
     return df, engine
 
 
@@ -385,8 +392,12 @@ if __name__ == "__main__":
         "--persist-dir", type=str, default=None,
         help="ChromaDB persistence directory"
     )
+    parser.add_argument(
+        "--max-jobs", type=int, default=None,
+        help="Cap number of jobs ingested (safety valve for constrained/offline environments)"
+    )
 
     args = parser.parse_args()
 
     engine = JobIngestionEngine(model_name=args.model, persist_dir=args.persist_dir)
-    df, stats = engine.ingest_pipeline(args.csv)
+    df, stats = engine.ingest_pipeline(args.csv, max_jobs=args.max_jobs)

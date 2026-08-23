@@ -15,6 +15,7 @@ Example Usage:
 """
 
 import json
+import platform
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -65,8 +66,9 @@ class RecommendationEngine:
 
         # Initialize embedding model
         if SentenceTransformer:
-            print(f"📦 Loading embedding model: {model_name}")
-            self.embedder = SentenceTransformer(model_name)
+            device = "cpu" if platform.system() == "Darwin" else None
+            print(f"📦 Loading embedding model: {model_name} on {'cpu' if device else 'default device'}")
+            self.embedder = SentenceTransformer(model_name, device=device) if device else SentenceTransformer(model_name)
         else:
             self.embedder = None
             raise RuntimeError("SentenceTransformer not available")
