@@ -1,0 +1,284 @@
+{
+  "source_files": {
+    "clean_count": 8855,
+    "with_image_count": 243,
+    "total_count": 9098
+  },
+  "field_completeness": {
+    "total_records": 9098,
+    "missing_core_fields": {
+      "question_id": 0,
+      "question": 0,
+      "question_type": 0,
+      "correct_answer": 3,
+      "subject": 0,
+      "topic": 0,
+      "subtopic": 0,
+      "difficulty": 0,
+      "time_expected_minutes": 0
+    },
+    "records_of_option_dependent_type_with_no_options": 135
+  },
+  "type_specific_issues": {
+    "multi_select_suspicious_single_answer": {
+      "count": 22,
+      "example_ids": [
+        "da::1.11.2",
+        "da::5.2.1",
+        "da::7.17.13",
+        "da::13.6.7",
+        "isro_w_cover::4.2.6",
+        "volume1::2.4.30",
+        "volume1::2.4.32",
+        "volume1::4.5.1",
+        "volume1::6.11.13",
+        "volume2::1.31.2"
+      ]
+    },
+    "match_following_missing_mapping_data": {
+      "count": 23,
+      "example_ids": [
+        "da::1.65.37",
+        "da::3.41.8",
+        "da::4.10.50",
+        "da::13.9.5",
+        "em::7.24.2",
+        "isro_w_cover::1.6.2",
+        "isro_w_cover::1.7.1",
+        "isro_w_cover::3.2.6",
+        "isro_w_cover::5.0.8",
+        "isro_w_cover::5.0.11"
+      ]
+    },
+    "numerical_answer_not_parseable_as_number": {
+      "count": 92,
+      "example_ids": [
+        "da::3.34.2",
+        "da::13.1.3",
+        "em::2.29.5",
+        "em::2.35.1",
+        "em::2.36.1",
+        "em::2.37.1",
+        "em::2.37.8",
+        "em::2.37.10",
+        "em::2.38.12",
+        "em::2.41.23"
+      ]
+    },
+    "visual_type_without_image_info": {
+      "count": 36,
+      "example_ids": [
+        "isro_w_cover::1.3.1",
+        "isro_w_cover::1.3.2",
+        "isro_w_cover::1.4.1",
+        "isro_w_cover::1.8.1",
+        "isro_w_cover::1.10.2",
+        "isro_w_cover::1.10.3",
+        "isro_w_cover::1.11.1",
+        "isro_w_cover::1.12.1",
+        "isro_w_cover::1.12.2",
+        "isro_w_cover::1.12.3"
+      ]
+    },
+    "image_based_missing_image_reference": {
+      "count": 36,
+      "example_ids": [
+        "isro_w_cover::1.3.1",
+        "isro_w_cover::1.3.2",
+        "isro_w_cover::1.4.1",
+        "isro_w_cover::1.8.1",
+        "isro_w_cover::1.10.2",
+        "isro_w_cover::1.10.3",
+        "isro_w_cover::1.11.1",
+        "isro_w_cover::1.12.1",
+        "isro_w_cover::1.12.2",
+        "isro_w_cover::1.12.3"
+      ]
+    }
+  },
+  "duplicates": {
+    "duplicate_question_ids": {
+      "count": 0,
+      "examples": {}
+    },
+    "duplicate_question_text_groups": {
+      "count": 518,
+      "total_records_involved": 1099
+    }
+  },
+  "taxonomy": {
+    "unique_subjects": 36,
+    "subject_counts": {
+      "General Aptitude": 1859,
+      "Programming and Data Structure": 991,
+      "Mathematics": 967,
+      "Databases": 705,
+      "Computer Networks": 549,
+      "Operating System": 537,
+      "Digital Logic": 498,
+      "Computer Organization and Architecture": 482,
+      "Discrete Mathematics": 458,
+      "Quantitative Aptitude": 426,
+      "Theory of Computation": 409,
+      "Algorithms": 285,
+      "Compiler Design": 214,
+      "Artificial Intelligence": 132,
+      "Computer Science": 118,
+      "Programming and Data Structures": 114,
+      "Programming": 104,
+      "Data Structures": 86,
+      "Engineering Mathematics": 51,
+      "Data Structures and Algorithms": 46,
+      "Machine Learning": 22,
+      "Operations Research": 16,
+      "Programming Fundamentals": 9,
+      "Digital Electronics": 4,
+      "Verbal Aptitude": 2,
+      "Physics": 2,
+      "Cloud Computing": 2,
+      "Web Technologies": 2,
+      "Software Engineering": 1,
+      "Cybersecurity": 1,
+      "System Software": 1,
+      "Operating Systems": 1,
+      "Data Mining and Warehousing": 1,
+      "Big Data Systems": 1,
+      "Binary Tree": 1,
+      "Stack": 1
+    },
+    "likely_duplicate_subject_labels": {
+      "operating system": [
+        "Operating System",
+        "Operating Systems"
+      ],
+      "programming and data structure": [
+        "Programming and Data Structure",
+        "Programming and Data Structures"
+      ]
+    },
+    "unique_subject_topic_pairs": 417,
+    "likely_duplicate_topic_labels_sample": {
+      "operating system :: operating system": [
+        "Operating System :: Operating System",
+        "Operating Systems :: Operating Systems"
+      ],
+      "programming and data structure :: algorithm": [
+        "Programming and Data Structure :: Algorithms",
+        "Programming and Data Structure :: algorithms",
+        "Programming and Data Structures :: Algorithms"
+      ],
+      "artificial intelligence :: artificial intelligence": [
+        "Artificial Intelligence :: Artificial Intelligence",
+        "Artificial Intelligence :: artificial-intelligence"
+      ],
+      "programming and data structure :: sorting": [
+        "Programming and Data Structure :: Sorting",
+        "Programming and Data Structure :: sorting"
+      ],
+      "programming and data structure :: data structure": [
+        "Programming and Data Structure :: Data Structures",
+        "Programming and Data Structure :: data-structures",
+        "Programming and Data Structures :: Data Structures"
+      ],
+      "programming and data structure :: dynamic programming": [
+        "Programming and Data Structure :: Dynamic Programming",
+        "Programming and Data Structures :: Dynamic Programming"
+      ],
+      "programming and data structure :: string": [
+        "Programming and Data Structure :: Strings",
+        "Programming and Data Structures :: Strings"
+      ],
+      "artificial intelligence :: neural network": [
+        "Artificial Intelligence :: Neural Network",
+        "Artificial Intelligence :: Neural Networks"
+      ],
+      "operating system :: deadlock": [
+        "Operating System :: Deadlock",
+        "Operating System :: Deadlocks"
+      ],
+      "programming and data structure :: linked list": [
+        "Programming and Data Structure :: Linked List",
+        "Programming and Data Structure :: Linked Lists"
+      ],
+      "programming and data structure :: tree": [
+        "Programming and Data Structure :: Tree",
+        "Programming and Data Structure :: Trees"
+      ],
+      "digital logic :: combinational circuit": [
+        "Digital Logic :: Combinational Circuit",
+        "Digital Logic :: Combinational Circuits"
+      ],
+      "theory of computation :: regular language": [
+        "Theory of Computation :: Regular Language",
+        "Theory of Computation :: Regular Languages"
+      ],
+      "theory of computation :: context free language": [
+        "Theory of Computation :: Context Free Language",
+        "Theory of Computation :: Context-Free Languages"
+      ],
+      "theory of computation :: turing machine": [
+        "Theory of Computation :: Turing Machine",
+        "Theory of Computation :: Turing Machines"
+      ],
+      "operating system :: io handling": [
+        "Operating System :: I/O Handling",
+        "Operating System :: IO Handling"
+      ],
+      "algorithm :: asymptotic notation": [
+        "Algorithms :: Asymptotic Notation",
+        "Algorithms :: Asymptotic Notations"
+      ]
+    },
+    "likely_duplicate_topic_label_groups_total": 17
+  },
+  "distribution": {
+    "by_question_type": {
+      "mcq": 7870,
+      "numerical": 672,
+      "multi_select": 239,
+      "fill_blank": 139,
+      "image_based": 100,
+      "match_following": 65,
+      "diagram_based": 6,
+      "table_based": 6,
+      "graph_based": 1
+    },
+    "by_difficulty": {
+      "Medium": 4965,
+      "Easy": 2876,
+      "Hard": 1257
+    },
+    "by_validation_status": {
+      "validated": 8636,
+      "valid": 323,
+      "clean": 126,
+      "options_restored_from_pdf": 5,
+      "answer_disputed": 3,
+      "multi_answer_C_or_D": 2,
+      "answer_is_none_of_above": 2,
+      "manual_review_required": 1
+    },
+    "by_source": {
+      "questions-enriched.csv": 1938,
+      "isro_w_cover.pdf": 868,
+      "volume2.pdf": 552,
+      "volume1.pdf": 397,
+      "logical_reasoning_questions.csv": 303,
+      "em.pdf": 226,
+      "clean_general_aptitude_dataset.csv": 125,
+      "CSE_Dataset.csv": 103,
+      "null": 43,
+      "ISRO CSE 2017": 4,
+      "GATE CSE 2014 Set 1 | Question 29": 3,
+      "GATE CSE 2021 Set 1 | Question 7": 3,
+      "GATE CSE 2021 Set 2 | Question 22": 3,
+      "GATE Electrical 2022 | GA Question 8": 3,
+      "ISRO CSE 2008": 3,
+      "ISRO CSE 2018": 3,
+      "ISRO CSE 2023": 3,
+      "ISRO CSE 2015": 3,
+      "GATE IT 2004 | Question 76": 3,
+      "cse_dataset.csv": 2
+    }
+  }
+}

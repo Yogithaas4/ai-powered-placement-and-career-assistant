@@ -1,0 +1,301 @@
+run_id,algorithm,started_at,practice_category,simulator,metric_name,metric_value,canonical_subject
+6a01a6cd-ce23-46d6-a3dc-0d1fb39cd9ca,bkt_ema_epsilon_greedy,2026-08-24 09:15:23.906401+00:00,Programming & DSA,irt_generative,concepts_touched,189.0,Algorithms
+6a01a6cd-ce23-46d6-a3dc-0d1fb39cd9ca,bkt_ema_epsilon_greedy,2026-08-24 09:15:23.906401+00:00,Programming & DSA,irt_generative,mean_true_mastery,0.5252004684461812,Algorithms
+6a01a6cd-ce23-46d6-a3dc-0d1fb39cd9ca,bkt_ema_epsilon_greedy,2026-08-24 09:15:23.906401+00:00,Programming & DSA,irt_generative,accuracy,0.6005269224436028,Algorithms
+6a01a6cd-ce23-46d6-a3dc-0d1fb39cd9ca,bkt_ema_epsilon_greedy,2026-08-24 09:15:23.906401+00:00,Programming & DSA,irt_generative,n_asked,6073.0,Algorithms
+3b1b6dec-a1f8-4884-9917-4790eac9e731,bkt_ema_epsilon_greedy,2026-08-24 09:14:35.154183+00:00,Programming & DSA,bkt_generative,concepts_touched,363.0,Programming and Data Structures
+3b1b6dec-a1f8-4884-9917-4790eac9e731,bkt_ema_epsilon_greedy,2026-08-24 09:14:35.154183+00:00,Programming & DSA,bkt_generative,mean_true_mastery,0.2988017476688694,Programming and Data Structures
+3b1b6dec-a1f8-4884-9917-4790eac9e731,bkt_ema_epsilon_greedy,2026-08-24 09:14:35.154183+00:00,Programming & DSA,bkt_generative,accuracy,0.4018490647172651,Programming and Data Structures
+3b1b6dec-a1f8-4884-9917-4790eac9e731,bkt_ema_epsilon_greedy,2026-08-24 09:14:35.154183+00:00,Programming & DSA,bkt_generative,n_asked,13953.0,Programming and Data Structures
+a5b981e6-149b-46a9-98d7-9e1f7b600101,bkt,2026-08-24 09:11:25.225292+00:00,Programming & DSA,irt_generative,concepts_touched,363.0,Programming and Data Structures
+a5b981e6-149b-46a9-98d7-9e1f7b600101,bkt,2026-08-24 09:11:25.225292+00:00,Programming & DSA,irt_generative,mean_true_mastery,0.5219268247770323,Programming and Data Structures
+a5b981e6-149b-46a9-98d7-9e1f7b600101,bkt,2026-08-24 09:11:25.225292+00:00,Programming & DSA,irt_generative,accuracy,0.6218109054527263,Programming and Data Structures
+a5b981e6-149b-46a9-98d7-9e1f7b600101,bkt,2026-08-24 09:11:25.225292+00:00,Programming & DSA,irt_generative,n_asked,13993.0,Programming and Data Structures
+ac8a99ce-8da1-468e-ac62-d77e8bfddd75,bkt,2026-08-24 09:10:30.680815+00:00,Programming & DSA,bkt_generative,concepts_touched,188.0,Algorithms
+ac8a99ce-8da1-468e-ac62-d77e8bfddd75,bkt,2026-08-24 09:10:30.680815+00:00,Programming & DSA,bkt_generative,mean_true_mastery,0.2981779022831276,Algorithms
+ac8a99ce-8da1-468e-ac62-d77e8bfddd75,bkt,2026-08-24 09:10:30.680815+00:00,Programming & DSA,bkt_generative,accuracy,0.40214477211796246,Algorithms
+ac8a99ce-8da1-468e-ac62-d77e8bfddd75,bkt,2026-08-24 09:10:30.680815+00:00,Programming & DSA,bkt_generative,n_asked,5968.0,Algorithms
+68306180-94d5-42c0-b236-c0f02eb19d96,ema_only,2026-08-24 09:07:25.101952+00:00,Programming & DSA,irt_generative,accuracy,0.6103170691637917,Algorithms
+68306180-94d5-42c0-b236-c0f02eb19d96,ema_only,2026-08-24 09:07:25.101952+00:00,Programming & DSA,irt_generative,n_asked,6087.0,Algorithms
+68306180-94d5-42c0-b236-c0f02eb19d96,ema_only,2026-08-24 09:07:25.101952+00:00,Programming & DSA,irt_generative,mean_true_mastery,0.5275726519090841,Algorithms
+68306180-94d5-42c0-b236-c0f02eb19d96,ema_only,2026-08-24 09:07:25.101952+00:00,Programming & DSA,irt_generative,concepts_touched,187.0,Algorithms
+b96ad7db-87e6-4547-b34e-4468007d286b,ema_only,2026-08-24 09:06:25.415619+00:00,Programming & DSA,bkt_generative,concepts_touched,178.0,Algorithms
+b96ad7db-87e6-4547-b34e-4468007d286b,ema_only,2026-08-24 09:06:25.415619+00:00,Programming & DSA,bkt_generative,mean_true_mastery,0.2994562322210432,Algorithms
+b96ad7db-87e6-4547-b34e-4468007d286b,ema_only,2026-08-24 09:06:25.415619+00:00,Programming & DSA,bkt_generative,accuracy,0.4067881625146297,Algorithms
+b96ad7db-87e6-4547-b34e-4468007d286b,ema_only,2026-08-24 09:06:25.415619+00:00,Programming & DSA,bkt_generative,n_asked,5981.0,Algorithms
+34aa4277-83d8-4e0c-bc7e-9f02f4af54b7,rule_weakest_topic,2026-08-24 09:02:44.102155+00:00,Programming & DSA,irt_generative,n_asked,16193.0,Programming and Data Structures
+34aa4277-83d8-4e0c-bc7e-9f02f4af54b7,rule_weakest_topic,2026-08-24 09:02:44.102155+00:00,Programming & DSA,irt_generative,accuracy,0.5822886432409066,Programming and Data Structures
+34aa4277-83d8-4e0c-bc7e-9f02f4af54b7,rule_weakest_topic,2026-08-24 09:02:44.102155+00:00,Programming & DSA,irt_generative,mean_true_mastery,0.5164194850815204,Programming and Data Structures
+34aa4277-83d8-4e0c-bc7e-9f02f4af54b7,rule_weakest_topic,2026-08-24 09:02:44.102155+00:00,Programming & DSA,irt_generative,concepts_touched,369.0,Programming and Data Structures
+39feaa31-0a65-4853-ba88-c95064b694d0,rule_weakest_topic,2026-08-24 09:02:19.282020+00:00,Programming & DSA,bkt_generative,n_asked,16663.0,Programming and Data Structures
+39feaa31-0a65-4853-ba88-c95064b694d0,rule_weakest_topic,2026-08-24 09:02:19.282020+00:00,Programming & DSA,bkt_generative,accuracy,0.38444457780711755,Programming and Data Structures
+39feaa31-0a65-4853-ba88-c95064b694d0,rule_weakest_topic,2026-08-24 09:02:19.282020+00:00,Programming & DSA,bkt_generative,mean_true_mastery,0.27022257487493556,Programming and Data Structures
+39feaa31-0a65-4853-ba88-c95064b694d0,rule_weakest_topic,2026-08-24 09:02:19.282020+00:00,Programming & DSA,bkt_generative,concepts_touched,368.0,Programming and Data Structures
+6d6907a5-b163-4b97-b05a-f90dba4595d3,random,2026-08-24 09:00:55.125532+00:00,Programming & DSA,irt_generative,accuracy,0.5643085807545039,Programming and Data Structures
+6d6907a5-b163-4b97-b05a-f90dba4595d3,random,2026-08-24 09:00:55.125532+00:00,Programming & DSA,irt_generative,n_asked,15931.0,Programming and Data Structures
+6d6907a5-b163-4b97-b05a-f90dba4595d3,random,2026-08-24 09:00:55.125532+00:00,Programming & DSA,irt_generative,mean_true_mastery,0.5222934031844639,Programming and Data Structures
+6d6907a5-b163-4b97-b05a-f90dba4595d3,random,2026-08-24 09:00:55.125532+00:00,Programming & DSA,irt_generative,concepts_touched,369.0,Programming and Data Structures
+55eac702-cedb-476f-991c-c05f6e140829,random,2026-08-24 09:00:29.460001+00:00,Programming & DSA,bkt_generative,mean_true_mastery,0.34158346096429076,Programming and Data Structures
+55eac702-cedb-476f-991c-c05f6e140829,random,2026-08-24 09:00:29.460001+00:00,Programming & DSA,bkt_generative,n_asked,15916.0,Programming and Data Structures
+55eac702-cedb-476f-991c-c05f6e140829,random,2026-08-24 09:00:29.460001+00:00,Programming & DSA,bkt_generative,concepts_touched,199.0,Algorithms
+55eac702-cedb-476f-991c-c05f6e140829,random,2026-08-24 09:00:29.460001+00:00,Programming & DSA,bkt_generative,accuracy,0.41821743388834476,Algorithms
+c141c68c-5300-4a71-9579-6e72add054ba,bkt_ema_epsilon_greedy,2026-08-24 08:57:50.865268+00:00,Engineering Mathematics,irt_generative,n_asked,12265.0,Engineering Mathematics
+c141c68c-5300-4a71-9579-6e72add054ba,bkt_ema_epsilon_greedy,2026-08-24 08:57:50.865268+00:00,Engineering Mathematics,irt_generative,mean_true_mastery,0.5206002043764918,Engineering Mathematics
+c141c68c-5300-4a71-9579-6e72add054ba,bkt_ema_epsilon_greedy,2026-08-24 08:57:50.865268+00:00,Engineering Mathematics,irt_generative,concepts_touched,173.0,Engineering Mathematics
+c141c68c-5300-4a71-9579-6e72add054ba,bkt_ema_epsilon_greedy,2026-08-24 08:57:50.865268+00:00,Engineering Mathematics,irt_generative,accuracy,0.6129282482223659,Discrete Mathematics
+6bed8ad6-02a3-4670-9790-804408c9b42f,bkt_ema_epsilon_greedy,2026-08-24 08:57:13.918561+00:00,Engineering Mathematics,bkt_generative,n_asked,12199.0,Engineering Mathematics
+6bed8ad6-02a3-4670-9790-804408c9b42f,bkt_ema_epsilon_greedy,2026-08-24 08:57:13.918561+00:00,Engineering Mathematics,bkt_generative,accuracy,0.40585293876547257,Engineering Mathematics
+6bed8ad6-02a3-4670-9790-804408c9b42f,bkt_ema_epsilon_greedy,2026-08-24 08:57:13.918561+00:00,Engineering Mathematics,bkt_generative,mean_true_mastery,0.29791327807927726,Engineering Mathematics
+6bed8ad6-02a3-4670-9790-804408c9b42f,bkt_ema_epsilon_greedy,2026-08-24 08:57:13.918561+00:00,Engineering Mathematics,bkt_generative,concepts_touched,173.0,Engineering Mathematics
+64387cd9-7afc-4ca8-8075-10eac4ce8639,bkt,2026-08-24 08:54:45.034046+00:00,Engineering Mathematics,irt_generative,concepts_touched,173.0,Engineering Mathematics
+64387cd9-7afc-4ca8-8075-10eac4ce8639,bkt,2026-08-24 08:54:45.034046+00:00,Engineering Mathematics,irt_generative,mean_true_mastery,0.5210408914154928,Engineering Mathematics
+64387cd9-7afc-4ca8-8075-10eac4ce8639,bkt,2026-08-24 08:54:45.034046+00:00,Engineering Mathematics,irt_generative,accuracy,0.5666501894875597,Engineering Mathematics
+64387cd9-7afc-4ca8-8075-10eac4ce8639,bkt,2026-08-24 08:54:45.034046+00:00,Engineering Mathematics,irt_generative,n_asked,12138.0,Engineering Mathematics
+1e13881a-5abf-43ff-9b85-6b197c7ea411,bkt,2026-08-24 08:54:13.480053+00:00,Engineering Mathematics,bkt_generative,n_asked,12004.0,Engineering Mathematics
+1e13881a-5abf-43ff-9b85-6b197c7ea411,bkt,2026-08-24 08:54:13.480053+00:00,Engineering Mathematics,bkt_generative,accuracy,0.4109463512162612,Engineering Mathematics
+1e13881a-5abf-43ff-9b85-6b197c7ea411,bkt,2026-08-24 08:54:13.480053+00:00,Engineering Mathematics,bkt_generative,mean_true_mastery,0.2979290266669858,Engineering Mathematics
+1e13881a-5abf-43ff-9b85-6b197c7ea411,bkt,2026-08-24 08:54:13.480053+00:00,Engineering Mathematics,bkt_generative,concepts_touched,173.0,Engineering Mathematics
+5a44f214-3fd7-4972-adb8-681473ad701c,ema_only,2026-08-24 08:51:52.478201+00:00,Engineering Mathematics,irt_generative,concepts_touched,120.0,Discrete Mathematics
+5a44f214-3fd7-4972-adb8-681473ad701c,ema_only,2026-08-24 08:51:52.478201+00:00,Engineering Mathematics,irt_generative,n_asked,12229.0,Engineering Mathematics
+5a44f214-3fd7-4972-adb8-681473ad701c,ema_only,2026-08-24 08:51:52.478201+00:00,Engineering Mathematics,irt_generative,accuracy,0.5709379344181863,Engineering Mathematics
+5a44f214-3fd7-4972-adb8-681473ad701c,ema_only,2026-08-24 08:51:52.478201+00:00,Engineering Mathematics,irt_generative,mean_true_mastery,0.521214568092147,Engineering Mathematics
+24782d01-c9d2-4b23-9289-a318541e1f5e,ema_only,2026-08-24 08:51:03.730602+00:00,Engineering Mathematics,bkt_generative,concepts_touched,119.0,Discrete Mathematics
+24782d01-c9d2-4b23-9289-a318541e1f5e,ema_only,2026-08-24 08:51:03.730602+00:00,Engineering Mathematics,bkt_generative,mean_true_mastery,0.2994324838512173,Discrete Mathematics
+24782d01-c9d2-4b23-9289-a318541e1f5e,ema_only,2026-08-24 08:51:03.730602+00:00,Engineering Mathematics,bkt_generative,accuracy,0.4132903225806452,Discrete Mathematics
+24782d01-c9d2-4b23-9289-a318541e1f5e,ema_only,2026-08-24 08:51:03.730602+00:00,Engineering Mathematics,bkt_generative,n_asked,7750.0,Discrete Mathematics
+b36730b0-e266-4091-a2f8-dbb4aafb07ca,rule_weakest_topic,2026-08-24 08:48:22.793911+00:00,Core CS (Systems & Theory),bkt_generative,n_asked,4.0,Software Engineering
+b36730b0-e266-4091-a2f8-dbb4aafb07ca,rule_weakest_topic,2026-08-24 08:48:22.793911+00:00,Core CS (Systems & Theory),bkt_generative,concepts_touched,1.0,Cybersecurity
+b36730b0-e266-4091-a2f8-dbb4aafb07ca,rule_weakest_topic,2026-08-24 08:48:22.793911+00:00,Core CS (Systems & Theory),bkt_generative,mean_true_mastery,0.3,Cybersecurity
+b36730b0-e266-4091-a2f8-dbb4aafb07ca,rule_weakest_topic,2026-08-24 08:48:22.793911+00:00,Core CS (Systems & Theory),bkt_generative,accuracy,0.3333333333333333,Cybersecurity
+8f40f5e2-d8aa-49f1-a517-68dfda8835fc,rule_weakest_topic,2026-08-24 08:47:29.024585+00:00,Engineering Mathematics,irt_generative,concepts_touched,120.0,Discrete Mathematics
+8f40f5e2-d8aa-49f1-a517-68dfda8835fc,rule_weakest_topic,2026-08-24 08:47:29.024585+00:00,Engineering Mathematics,irt_generative,mean_true_mastery,0.5225510941388274,Discrete Mathematics
+8f40f5e2-d8aa-49f1-a517-68dfda8835fc,rule_weakest_topic,2026-08-24 08:47:29.024585+00:00,Engineering Mathematics,irt_generative,accuracy,0.583224902412171,Discrete Mathematics
+8f40f5e2-d8aa-49f1-a517-68dfda8835fc,rule_weakest_topic,2026-08-24 08:47:29.024585+00:00,Engineering Mathematics,irt_generative,n_asked,9991.0,Discrete Mathematics
+af8ca26b-de8e-4807-850e-63a997a374a6,rule_weakest_topic,2026-08-24 08:47:07.116856+00:00,Engineering Mathematics,bkt_generative,n_asked,9859.0,Discrete Mathematics
+af8ca26b-de8e-4807-850e-63a997a374a6,rule_weakest_topic,2026-08-24 08:47:07.116856+00:00,Engineering Mathematics,bkt_generative,accuracy,0.3903954245143477,Engineering Mathematics
+af8ca26b-de8e-4807-850e-63a997a374a6,rule_weakest_topic,2026-08-24 08:47:07.116856+00:00,Engineering Mathematics,bkt_generative,mean_true_mastery,0.27994199882309445,Engineering Mathematics
+af8ca26b-de8e-4807-850e-63a997a374a6,rule_weakest_topic,2026-08-24 08:47:07.116856+00:00,Engineering Mathematics,bkt_generative,concepts_touched,173.0,Engineering Mathematics
+a7fbe167-07df-48b5-a66a-86e1c5726b22,random,2026-08-24 08:44:46.401403+00:00,Engineering Mathematics,irt_generative,mean_true_mastery,0.5212918622650797,Discrete Mathematics
+a7fbe167-07df-48b5-a66a-86e1c5726b22,random,2026-08-24 08:44:46.401403+00:00,Engineering Mathematics,irt_generative,accuracy,0.5652692231273594,Discrete Mathematics
+a7fbe167-07df-48b5-a66a-86e1c5726b22,random,2026-08-24 08:44:46.401403+00:00,Engineering Mathematics,irt_generative,n_asked,10066.0,Discrete Mathematics
+a7fbe167-07df-48b5-a66a-86e1c5726b22,random,2026-08-24 08:44:46.401403+00:00,Engineering Mathematics,irt_generative,concepts_touched,173.0,Engineering Mathematics
+a4fa296a-a39d-4f5b-bd1b-9c031f2fa461,random,2026-08-24 08:44:25.363970+00:00,Core CS (Systems & Theory),bkt_generative,concepts_touched,172.0,Computer Networks
+a4fa296a-a39d-4f5b-bd1b-9c031f2fa461,random,2026-08-24 08:44:25.363970+00:00,Core CS (Systems & Theory),bkt_generative,mean_true_mastery,0.3,System Software
+a4fa296a-a39d-4f5b-bd1b-9c031f2fa461,random,2026-08-24 08:44:25.363970+00:00,Core CS (Systems & Theory),bkt_generative,accuracy,0.5,System Software
+a4fa296a-a39d-4f5b-bd1b-9c031f2fa461,random,2026-08-24 08:44:25.363970+00:00,Core CS (Systems & Theory),bkt_generative,n_asked,4.0,System Software
+60ef2a3d-899e-4883-a8b6-22df2e73042f,random,2026-08-24 08:44:24.956511+00:00,Engineering Mathematics,bkt_generative,n_asked,9930.0,Discrete Mathematics
+60ef2a3d-899e-4883-a8b6-22df2e73042f,random,2026-08-24 08:44:24.956511+00:00,Engineering Mathematics,bkt_generative,concepts_touched,173.0,Engineering Mathematics
+60ef2a3d-899e-4883-a8b6-22df2e73042f,random,2026-08-24 08:44:24.956511+00:00,Engineering Mathematics,bkt_generative,mean_true_mastery,0.3544424093263299,Engineering Mathematics
+60ef2a3d-899e-4883-a8b6-22df2e73042f,random,2026-08-24 08:44:24.956511+00:00,Engineering Mathematics,bkt_generative,accuracy,0.44786494538232374,Engineering Mathematics
+4a47d370-f319-4606-94f5-d39dc834fd89,bkt_ema_epsilon_greedy,2026-08-24 08:41:40.773348+00:00,Data Science & AI,irt_generative,n_asked,18278.0,Artificial Intelligence
+4a47d370-f319-4606-94f5-d39dc834fd89,bkt_ema_epsilon_greedy,2026-08-24 08:41:40.773348+00:00,Data Science & AI,irt_generative,accuracy,0.626107889265784,Artificial Intelligence
+4a47d370-f319-4606-94f5-d39dc834fd89,bkt_ema_epsilon_greedy,2026-08-24 08:41:40.773348+00:00,Data Science & AI,irt_generative,mean_true_mastery,0.5201762185482692,Artificial Intelligence
+4a47d370-f319-4606-94f5-d39dc834fd89,bkt_ema_epsilon_greedy,2026-08-24 08:41:40.773348+00:00,Data Science & AI,irt_generative,concepts_touched,106.0,Artificial Intelligence
+61f22011-25e2-4e71-ad6b-c0fc37f02919,bkt_ema_epsilon_greedy,2026-08-24 08:41:17.321285+00:00,Data Science & AI,bkt_generative,n_asked,1399.0,Operations Research
+61f22011-25e2-4e71-ad6b-c0fc37f02919,bkt_ema_epsilon_greedy,2026-08-24 08:41:17.321285+00:00,Data Science & AI,bkt_generative,concepts_touched,106.0,Artificial Intelligence
+61f22011-25e2-4e71-ad6b-c0fc37f02919,bkt_ema_epsilon_greedy,2026-08-24 08:41:17.321285+00:00,Data Science & AI,bkt_generative,mean_true_mastery,0.30301974163606377,Artificial Intelligence
+61f22011-25e2-4e71-ad6b-c0fc37f02919,bkt_ema_epsilon_greedy,2026-08-24 08:41:17.321285+00:00,Data Science & AI,bkt_generative,accuracy,0.41104361626443386,Artificial Intelligence
+1287b3f1-b609-4d6b-82c9-429301fdb05b,bkt_ema_epsilon_greedy,2026-08-24 08:40:32.491402+00:00,Aptitude,irt_generative,concepts_touched,398.0,General Aptitude
+1287b3f1-b609-4d6b-82c9-429301fdb05b,bkt_ema_epsilon_greedy,2026-08-24 08:40:32.491402+00:00,Aptitude,irt_generative,mean_true_mastery,0.5208904998423781,General Aptitude
+1287b3f1-b609-4d6b-82c9-429301fdb05b,bkt_ema_epsilon_greedy,2026-08-24 08:40:32.491402+00:00,Aptitude,irt_generative,accuracy,0.60355,General Aptitude
+1287b3f1-b609-4d6b-82c9-429301fdb05b,bkt_ema_epsilon_greedy,2026-08-24 08:40:32.491402+00:00,Aptitude,irt_generative,n_asked,20000.0,General Aptitude
+4ea10ca7-0ddf-41f9-8957-043553e89229,bkt,2026-08-24 08:39:21.065470+00:00,Data Science & AI,irt_generative,mean_true_mastery,0.5210502681062972,Artificial Intelligence
+4ea10ca7-0ddf-41f9-8957-043553e89229,bkt,2026-08-24 08:39:21.065470+00:00,Data Science & AI,irt_generative,concepts_touched,106.0,Artificial Intelligence
+4ea10ca7-0ddf-41f9-8957-043553e89229,bkt,2026-08-24 08:39:21.065470+00:00,Data Science & AI,irt_generative,n_asked,158.0,Big Data Systems
+4ea10ca7-0ddf-41f9-8957-043553e89229,bkt,2026-08-24 08:39:21.065470+00:00,Data Science & AI,irt_generative,accuracy,0.5063291139240507,Big Data Systems
+bce87238-4db2-4f1e-abb1-8d3bd14de45d,bkt,2026-08-24 08:38:54.121276+00:00,Data Science & AI,bkt_generative,concepts_touched,8.0,Operations Research
+bce87238-4db2-4f1e-abb1-8d3bd14de45d,bkt,2026-08-24 08:38:54.121276+00:00,Data Science & AI,bkt_generative,mean_true_mastery,0.3,Big Data Systems
+bce87238-4db2-4f1e-abb1-8d3bd14de45d,bkt,2026-08-24 08:38:54.121276+00:00,Data Science & AI,bkt_generative,accuracy,0.46621621621621623,Big Data Systems
+bce87238-4db2-4f1e-abb1-8d3bd14de45d,bkt,2026-08-24 08:38:54.121276+00:00,Data Science & AI,bkt_generative,n_asked,148.0,Big Data Systems
+6a5eba35-ffea-49ae-86cd-429fb581d36b,bkt,2026-08-24 08:37:49.702830+00:00,Aptitude,irt_generative,concepts_touched,398.0,General Aptitude
+6a5eba35-ffea-49ae-86cd-429fb581d36b,bkt,2026-08-24 08:37:49.702830+00:00,Aptitude,irt_generative,mean_true_mastery,0.5208904998423781,General Aptitude
+6a5eba35-ffea-49ae-86cd-429fb581d36b,bkt,2026-08-24 08:37:49.702830+00:00,Aptitude,irt_generative,accuracy,0.60475,General Aptitude
+6a5eba35-ffea-49ae-86cd-429fb581d36b,bkt,2026-08-24 08:37:49.702830+00:00,Aptitude,irt_generative,n_asked,20000.0,General Aptitude
+25ffe085-e506-4c0e-a926-dea4949ed8c7,ema_only,2026-08-24 08:37:23.563532+00:00,Data Science & AI,irt_generative,n_asked,161.0,Data Mining and Warehousing
+25ffe085-e506-4c0e-a926-dea4949ed8c7,ema_only,2026-08-24 08:37:23.563532+00:00,Data Science & AI,irt_generative,accuracy,0.5341614906832298,Data Mining and Warehousing
+25ffe085-e506-4c0e-a926-dea4949ed8c7,ema_only,2026-08-24 08:37:23.563532+00:00,Data Science & AI,irt_generative,mean_true_mastery,0.5245158935297136,Data Mining and Warehousing
+25ffe085-e506-4c0e-a926-dea4949ed8c7,ema_only,2026-08-24 08:37:23.563532+00:00,Data Science & AI,irt_generative,concepts_touched,1.0,Big Data Systems
+3a15b385-addd-4b42-a20b-8a1f4751e0dc,ema_only,2026-08-24 08:37:03.807308+00:00,Data Science & AI,bkt_generative,n_asked,1346.0,Operations Research
+3a15b385-addd-4b42-a20b-8a1f4751e0dc,ema_only,2026-08-24 08:37:03.807308+00:00,Data Science & AI,bkt_generative,accuracy,0.40416047548291234,Operations Research
+3a15b385-addd-4b42-a20b-8a1f4751e0dc,ema_only,2026-08-24 08:37:03.807308+00:00,Data Science & AI,bkt_generative,mean_true_mastery,0.308044944980871,Operations Research
+3a15b385-addd-4b42-a20b-8a1f4751e0dc,ema_only,2026-08-24 08:37:03.807308+00:00,Data Science & AI,bkt_generative,concepts_touched,8.0,Operations Research
+8bda168c-6dc7-47ba-9d05-50110a69545b,ema_only,2026-08-24 08:35:46.413967+00:00,Aptitude,irt_generative,n_asked,20000.0,General Aptitude
+8bda168c-6dc7-47ba-9d05-50110a69545b,ema_only,2026-08-24 08:35:46.413967+00:00,Aptitude,irt_generative,accuracy,0.6054,General Aptitude
+8bda168c-6dc7-47ba-9d05-50110a69545b,ema_only,2026-08-24 08:35:46.413967+00:00,Aptitude,irt_generative,mean_true_mastery,0.5208904998423781,General Aptitude
+8bda168c-6dc7-47ba-9d05-50110a69545b,ema_only,2026-08-24 08:35:46.413967+00:00,Aptitude,irt_generative,concepts_touched,397.0,General Aptitude
+e4ae4853-6312-41ff-8822-3911c27770e6,rule_weakest_topic,2026-08-24 08:35:26.618789+00:00,Data Science & AI,irt_generative,accuracy,0.605248464544947,Artificial Intelligence
+e4ae4853-6312-41ff-8822-3911c27770e6,rule_weakest_topic,2026-08-24 08:35:26.618789+00:00,Data Science & AI,irt_generative,mean_true_mastery,0.5245912448526587,Operations Research
+e4ae4853-6312-41ff-8822-3911c27770e6,rule_weakest_topic,2026-08-24 08:35:26.618789+00:00,Data Science & AI,irt_generative,n_asked,117.0,Data Mining and Warehousing
+e4ae4853-6312-41ff-8822-3911c27770e6,rule_weakest_topic,2026-08-24 08:35:26.618789+00:00,Data Science & AI,irt_generative,concepts_touched,1.0,Data Mining and Warehousing
+4e1e449d-8737-42ed-98dc-3ac2bd33f5ee,rule_weakest_topic,2026-08-24 08:35:06.356089+00:00,Data Science & AI,bkt_generative,n_asked,104.0,Big Data Systems
+4e1e449d-8737-42ed-98dc-3ac2bd33f5ee,rule_weakest_topic,2026-08-24 08:35:06.356089+00:00,Data Science & AI,bkt_generative,concepts_touched,1.0,Data Mining and Warehousing
+4e1e449d-8737-42ed-98dc-3ac2bd33f5ee,rule_weakest_topic,2026-08-24 08:35:06.356089+00:00,Data Science & AI,bkt_generative,mean_true_mastery,0.29999999999999993,Data Mining and Warehousing
+4e1e449d-8737-42ed-98dc-3ac2bd33f5ee,rule_weakest_topic,2026-08-24 08:35:06.356089+00:00,Data Science & AI,bkt_generative,accuracy,0.3269230769230769,Data Mining and Warehousing
+be215d41-dbee-4482-81cb-62d3df36c551,random,2026-08-24 08:34:31.345351+00:00,Data Science & AI,irt_generative,n_asked,17953.0,Artificial Intelligence
+be215d41-dbee-4482-81cb-62d3df36c551,random,2026-08-24 08:34:31.345351+00:00,Data Science & AI,irt_generative,mean_true_mastery,0.5293284643632423,Data Mining and Warehousing
+be215d41-dbee-4482-81cb-62d3df36c551,random,2026-08-24 08:34:31.345351+00:00,Data Science & AI,irt_generative,accuracy,0.6060825488776249,Artificial Intelligence
+be215d41-dbee-4482-81cb-62d3df36c551,random,2026-08-24 08:34:31.345351+00:00,Data Science & AI,irt_generative,concepts_touched,106.0,Artificial Intelligence
+b5407aa8-ef39-4b68-a2c1-5a4c43aa918d,random,2026-08-24 08:34:07.894858+00:00,Data Science & AI,bkt_generative,n_asked,17932.0,Artificial Intelligence
+b5407aa8-ef39-4b68-a2c1-5a4c43aa918d,random,2026-08-24 08:34:07.894858+00:00,Data Science & AI,bkt_generative,accuracy,0.4331362926611644,Artificial Intelligence
+b5407aa8-ef39-4b68-a2c1-5a4c43aa918d,random,2026-08-24 08:34:07.894858+00:00,Data Science & AI,bkt_generative,mean_true_mastery,0.32746819140869177,Artificial Intelligence
+b5407aa8-ef39-4b68-a2c1-5a4c43aa918d,random,2026-08-24 08:34:07.894858+00:00,Data Science & AI,bkt_generative,concepts_touched,106.0,Artificial Intelligence
+9376a30a-1c9a-4b69-aa11-9f76e21a7c9b,rule_weakest_topic,2026-08-24 08:32:22.451036+00:00,Aptitude,irt_generative,n_asked,20000.0,General Aptitude
+9376a30a-1c9a-4b69-aa11-9f76e21a7c9b,rule_weakest_topic,2026-08-24 08:32:22.451036+00:00,Aptitude,irt_generative,accuracy,0.60145,General Aptitude
+9376a30a-1c9a-4b69-aa11-9f76e21a7c9b,rule_weakest_topic,2026-08-24 08:32:22.451036+00:00,Aptitude,irt_generative,mean_true_mastery,0.5208904998423781,General Aptitude
+9376a30a-1c9a-4b69-aa11-9f76e21a7c9b,rule_weakest_topic,2026-08-24 08:32:22.451036+00:00,Aptitude,irt_generative,concepts_touched,397.0,General Aptitude
+c08e68a7-1b8b-4db6-841a-ae1e9d4d48f3,bkt_ema_epsilon_greedy,2026-08-24 08:30:36.025613+00:00,Core CS (Systems & Theory),irt_generative,concepts_touched,1.0,Software Engineering
+c08e68a7-1b8b-4db6-841a-ae1e9d4d48f3,bkt_ema_epsilon_greedy,2026-08-24 08:30:36.025613+00:00,Core CS (Systems & Theory),irt_generative,mean_true_mastery,0.5096468023878864,Software Engineering
+c08e68a7-1b8b-4db6-841a-ae1e9d4d48f3,bkt_ema_epsilon_greedy,2026-08-24 08:30:36.025613+00:00,Core CS (Systems & Theory),irt_generative,accuracy,0.5,Software Engineering
+c08e68a7-1b8b-4db6-841a-ae1e9d4d48f3,bkt_ema_epsilon_greedy,2026-08-24 08:30:36.025613+00:00,Core CS (Systems & Theory),irt_generative,n_asked,26.0,Software Engineering
+e2b0a99f-d360-4091-8a74-901d4eb8f7af,bkt_ema_epsilon_greedy,2026-08-24 08:29:53.990707+00:00,Core CS (Systems & Theory),bkt_generative,concepts_touched,1.0,Web Technologies
+e2b0a99f-d360-4091-8a74-901d4eb8f7af,bkt_ema_epsilon_greedy,2026-08-24 08:29:53.990707+00:00,Core CS (Systems & Theory),bkt_generative,mean_true_mastery,0.2863100749295266,Web Technologies
+e2b0a99f-d360-4091-8a74-901d4eb8f7af,bkt_ema_epsilon_greedy,2026-08-24 08:29:53.990707+00:00,Core CS (Systems & Theory),bkt_generative,accuracy,0.375,Web Technologies
+e2b0a99f-d360-4091-8a74-901d4eb8f7af,bkt_ema_epsilon_greedy,2026-08-24 08:29:53.990707+00:00,Core CS (Systems & Theory),bkt_generative,n_asked,24.0,Web Technologies
+b3e6895f-ac22-48d4-96ec-1e4b1261cbe2,random,2026-08-24 08:29:38.758577+00:00,Aptitude,irt_generative,n_asked,20000.0,General Aptitude
+b3e6895f-ac22-48d4-96ec-1e4b1261cbe2,random,2026-08-24 08:29:38.758577+00:00,Aptitude,irt_generative,accuracy,0.5904,General Aptitude
+b3e6895f-ac22-48d4-96ec-1e4b1261cbe2,random,2026-08-24 08:29:38.758577+00:00,Aptitude,irt_generative,mean_true_mastery,0.5208904998423781,General Aptitude
+b3e6895f-ac22-48d4-96ec-1e4b1261cbe2,random,2026-08-24 08:29:38.758577+00:00,Aptitude,irt_generative,concepts_touched,398.0,General Aptitude
+4d8041c4-e980-4ad1-992c-1e519d9d083e,bkt_ema_epsilon_greedy,2026-08-24 08:26:20.899457+00:00,Aptitude,bkt_generative,n_asked,20000.0,General Aptitude
+4d8041c4-e980-4ad1-992c-1e519d9d083e,bkt_ema_epsilon_greedy,2026-08-24 08:26:20.899457+00:00,Aptitude,bkt_generative,accuracy,0.40465,General Aptitude
+4d8041c4-e980-4ad1-992c-1e519d9d083e,bkt_ema_epsilon_greedy,2026-08-24 08:26:20.899457+00:00,Aptitude,bkt_generative,mean_true_mastery,0.2973957949356318,General Aptitude
+4d8041c4-e980-4ad1-992c-1e519d9d083e,bkt_ema_epsilon_greedy,2026-08-24 08:26:20.899457+00:00,Aptitude,bkt_generative,concepts_touched,397.0,General Aptitude
+f371b995-73f5-4968-b5d6-0b024322a5f6,bkt,2026-08-24 08:26:06.147885+00:00,Core CS (Systems & Theory),irt_generative,mean_true_mastery,0.5169982834717608,System Software
+f371b995-73f5-4968-b5d6-0b024322a5f6,bkt,2026-08-24 08:26:06.147885+00:00,Core CS (Systems & Theory),irt_generative,accuracy,0.45,System Software
+f371b995-73f5-4968-b5d6-0b024322a5f6,bkt,2026-08-24 08:26:06.147885+00:00,Core CS (Systems & Theory),irt_generative,n_asked,20.0,System Software
+f371b995-73f5-4968-b5d6-0b024322a5f6,bkt,2026-08-24 08:26:06.147885+00:00,Core CS (Systems & Theory),irt_generative,concepts_touched,131.0,Digital Logic
+d713c7b0-a554-4f54-8801-8e0b6cc71c5b,bkt,2026-08-24 08:25:21.989991+00:00,Core CS (Systems & Theory),bkt_generative,n_asked,2811.0,Databases
+d713c7b0-a554-4f54-8801-8e0b6cc71c5b,bkt,2026-08-24 08:25:21.989991+00:00,Core CS (Systems & Theory),bkt_generative,concepts_touched,1.0,Web Technologies
+d713c7b0-a554-4f54-8801-8e0b6cc71c5b,bkt,2026-08-24 08:25:21.989991+00:00,Core CS (Systems & Theory),bkt_generative,mean_true_mastery,0.29999999999999993,Web Technologies
+d713c7b0-a554-4f54-8801-8e0b6cc71c5b,bkt,2026-08-24 08:25:21.989991+00:00,Core CS (Systems & Theory),bkt_generative,accuracy,0.38095238095238093,Web Technologies
+ee923596-7f0b-4871-a695-b2300b59d01d,bkt,2026-08-24 08:22:44.217438+00:00,Aptitude,bkt_generative,accuracy,0.4107,General Aptitude
+ee923596-7f0b-4871-a695-b2300b59d01d,bkt,2026-08-24 08:22:44.217438+00:00,Aptitude,bkt_generative,n_asked,20000.0,General Aptitude
+ee923596-7f0b-4871-a695-b2300b59d01d,bkt,2026-08-24 08:22:44.217438+00:00,Aptitude,bkt_generative,concepts_touched,397.0,General Aptitude
+ee923596-7f0b-4871-a695-b2300b59d01d,bkt,2026-08-24 08:22:44.217438+00:00,Aptitude,bkt_generative,mean_true_mastery,0.29758874563763277,General Aptitude
+70977b81-6b4a-451a-af7b-62efd5b205b2,ema_only,2026-08-24 08:21:06.391825+00:00,Core CS (Systems & Theory),irt_generative,mean_true_mastery,0.5241734617521501,Operating Systems
+70977b81-6b4a-451a-af7b-62efd5b205b2,ema_only,2026-08-24 08:21:06.391825+00:00,Core CS (Systems & Theory),irt_generative,accuracy,0.6242625368731564,Operating Systems
+70977b81-6b4a-451a-af7b-62efd5b205b2,ema_only,2026-08-24 08:21:06.391825+00:00,Core CS (Systems & Theory),irt_generative,n_asked,2712.0,Operating Systems
+70977b81-6b4a-451a-af7b-62efd5b205b2,ema_only,2026-08-24 08:21:06.391825+00:00,Core CS (Systems & Theory),irt_generative,concepts_touched,141.0,Databases
+bf9b1458-1b3f-4092-893f-1b59d366d98e,ema_only,2026-08-24 08:20:26.980826+00:00,Core CS (Systems & Theory),bkt_generative,accuracy,0.39285714285714285,System Software
+bf9b1458-1b3f-4092-893f-1b59d366d98e,ema_only,2026-08-24 08:20:26.980826+00:00,Core CS (Systems & Theory),bkt_generative,n_asked,20.0,Cybersecurity
+bf9b1458-1b3f-4092-893f-1b59d366d98e,ema_only,2026-08-24 08:20:26.980826+00:00,Core CS (Systems & Theory),bkt_generative,concepts_touched,1.0,System Software
+bf9b1458-1b3f-4092-893f-1b59d366d98e,ema_only,2026-08-24 08:20:26.980826+00:00,Core CS (Systems & Theory),bkt_generative,mean_true_mastery,0.3,System Software
+f05c6b72-1e19-449e-8317-d7908e8d744d,ema_only,2026-08-24 08:19:04.562399+00:00,Aptitude,bkt_generative,mean_true_mastery,0.2997188586846775,General Aptitude
+f05c6b72-1e19-449e-8317-d7908e8d744d,ema_only,2026-08-24 08:19:04.562399+00:00,Aptitude,bkt_generative,accuracy,0.40585,General Aptitude
+f05c6b72-1e19-449e-8317-d7908e8d744d,ema_only,2026-08-24 08:19:04.562399+00:00,Aptitude,bkt_generative,n_asked,20000.0,General Aptitude
+f05c6b72-1e19-449e-8317-d7908e8d744d,ema_only,2026-08-24 08:19:04.562399+00:00,Aptitude,bkt_generative,concepts_touched,396.0,General Aptitude
+65037801-7d45-4719-9b5b-26d744046bda,rule_weakest_topic,2026-08-24 08:14:00.251785+00:00,Aptitude,bkt_generative,accuracy,0.3898,General Aptitude
+65037801-7d45-4719-9b5b-26d744046bda,rule_weakest_topic,2026-08-24 08:14:00.251785+00:00,Aptitude,bkt_generative,concepts_touched,397.0,General Aptitude
+65037801-7d45-4719-9b5b-26d744046bda,rule_weakest_topic,2026-08-24 08:14:00.251785+00:00,Aptitude,bkt_generative,mean_true_mastery,0.27496199358918283,General Aptitude
+65037801-7d45-4719-9b5b-26d744046bda,rule_weakest_topic,2026-08-24 08:14:00.251785+00:00,Aptitude,bkt_generative,n_asked,20000.0,General Aptitude
+dec5bd9c-cca7-433d-82b5-e91ad0970953,rule_weakest_topic,2026-08-24 08:13:22.334169+00:00,Core CS (Systems & Theory),irt_generative,concepts_touched,2.0,Cloud Computing
+dec5bd9c-cca7-433d-82b5-e91ad0970953,rule_weakest_topic,2026-08-24 08:13:22.334169+00:00,Core CS (Systems & Theory),irt_generative,mean_true_mastery,0.551026620774514,Cloud Computing
+dec5bd9c-cca7-433d-82b5-e91ad0970953,rule_weakest_topic,2026-08-24 08:13:22.334169+00:00,Core CS (Systems & Theory),irt_generative,accuracy,0.7,Cloud Computing
+dec5bd9c-cca7-433d-82b5-e91ad0970953,rule_weakest_topic,2026-08-24 08:13:22.334169+00:00,Core CS (Systems & Theory),irt_generative,n_asked,10.0,Cloud Computing
+d539a404-5190-48b6-b46e-629b933bfb1f,random,2026-08-24 08:10:32.405769+00:00,Aptitude,bkt_generative,accuracy,0.47075,General Aptitude
+d539a404-5190-48b6-b46e-629b933bfb1f,random,2026-08-24 08:10:32.405769+00:00,Aptitude,bkt_generative,n_asked,20000.0,General Aptitude
+d539a404-5190-48b6-b46e-629b933bfb1f,random,2026-08-24 08:10:32.405769+00:00,Aptitude,bkt_generative,concepts_touched,398.0,General Aptitude
+d539a404-5190-48b6-b46e-629b933bfb1f,random,2026-08-24 08:10:32.405769+00:00,Aptitude,bkt_generative,mean_true_mastery,0.38519543512674626,General Aptitude
+c4f3a10c-efa9-49ff-bc9a-bca7203ab2d9,random,2026-08-24 08:09:09.559386+00:00,Core CS (Systems & Theory),irt_generative,n_asked,4.0,Software Engineering
+c4f3a10c-efa9-49ff-bc9a-bca7203ab2d9,random,2026-08-24 08:09:09.559386+00:00,Core CS (Systems & Theory),irt_generative,accuracy,0.5180209698558322,Operating Systems
+c4f3a10c-efa9-49ff-bc9a-bca7203ab2d9,random,2026-08-24 08:09:09.559386+00:00,Core CS (Systems & Theory),irt_generative,mean_true_mastery,0.514678877064746,Operating Systems
+c4f3a10c-efa9-49ff-bc9a-bca7203ab2d9,random,2026-08-24 08:09:09.559386+00:00,Core CS (Systems & Theory),irt_generative,concepts_touched,167.0,Operating Systems
+82a21df9-27e7-4dc7-82fe-d97ffc647c4f,bkt_ema_epsilon_greedy,2026-08-23 08:19:47.724664+00:00,Programming & DSA,simple_ability_placeholder,concepts_touched,185.0,Algorithms
+82a21df9-27e7-4dc7-82fe-d97ffc647c4f,bkt_ema_epsilon_greedy,2026-08-23 08:19:47.724664+00:00,Programming & DSA,simple_ability_placeholder,mean_true_mastery,0.3005409983143281,Algorithms
+82a21df9-27e7-4dc7-82fe-d97ffc647c4f,bkt_ema_epsilon_greedy,2026-08-23 08:19:47.724664+00:00,Programming & DSA,simple_ability_placeholder,accuracy,0.5331350190051232,Algorithms
+82a21df9-27e7-4dc7-82fe-d97ffc647c4f,bkt_ema_epsilon_greedy,2026-08-23 08:19:47.724664+00:00,Programming & DSA,simple_ability_placeholder,n_asked,6051.0,Algorithms
+8ec22837-aeb4-484c-9bfa-188db7fb15c5,bkt,2026-08-23 08:16:51.395391+00:00,Programming & DSA,simple_ability_placeholder,concepts_touched,186.0,Algorithms
+8ec22837-aeb4-484c-9bfa-188db7fb15c5,bkt,2026-08-23 08:16:51.395391+00:00,Programming & DSA,simple_ability_placeholder,mean_true_mastery,0.3005202320732722,Algorithms
+8ec22837-aeb4-484c-9bfa-188db7fb15c5,bkt,2026-08-23 08:16:51.395391+00:00,Programming & DSA,simple_ability_placeholder,accuracy,0.5318900915903414,Algorithms
+8ec22837-aeb4-484c-9bfa-188db7fb15c5,bkt,2026-08-23 08:16:51.395391+00:00,Programming & DSA,simple_ability_placeholder,n_asked,6005.0,Algorithms
+29c727ed-de1c-4b24-891d-37b8d373be7d,ema_only,2026-08-23 08:10:29.947299+00:00,Programming & DSA,simple_ability_placeholder,accuracy,0.5491756272401433,Programming and Data Structures
+29c727ed-de1c-4b24-891d-37b8d373be7d,ema_only,2026-08-23 08:10:29.947299+00:00,Programming & DSA,simple_ability_placeholder,concepts_touched,186.0,Algorithms
+29c727ed-de1c-4b24-891d-37b8d373be7d,ema_only,2026-08-23 08:10:29.947299+00:00,Programming & DSA,simple_ability_placeholder,mean_true_mastery,0.30029434710743796,Algorithms
+29c727ed-de1c-4b24-891d-37b8d373be7d,ema_only,2026-08-23 08:10:29.947299+00:00,Programming & DSA,simple_ability_placeholder,n_asked,6050.0,Algorithms
+63fa77eb-a081-4670-ab82-e869a02820fb,rule_weakest_topic,2026-08-23 08:06:23.778384+00:00,Programming & DSA,simple_ability_placeholder,concepts_touched,199.0,Algorithms
+63fa77eb-a081-4670-ab82-e869a02820fb,rule_weakest_topic,2026-08-23 08:06:23.778384+00:00,Programming & DSA,simple_ability_placeholder,mean_true_mastery,0.3064661616471721,Algorithms
+63fa77eb-a081-4670-ab82-e869a02820fb,rule_weakest_topic,2026-08-23 08:06:23.778384+00:00,Programming & DSA,simple_ability_placeholder,accuracy,0.5020123423665146,Algorithms
+63fa77eb-a081-4670-ab82-e869a02820fb,rule_weakest_topic,2026-08-23 08:06:23.778384+00:00,Programming & DSA,simple_ability_placeholder,n_asked,3727.0,Algorithms
+a8f65ff5-8e51-4c8d-9a08-8d1312cf9fb4,random,2026-08-23 08:03:59.347483+00:00,Programming & DSA,simple_ability_placeholder,concepts_touched,199.0,Algorithms
+a8f65ff5-8e51-4c8d-9a08-8d1312cf9fb4,random,2026-08-23 08:03:59.347483+00:00,Programming & DSA,simple_ability_placeholder,mean_true_mastery,0.3045718901955307,Algorithms
+a8f65ff5-8e51-4c8d-9a08-8d1312cf9fb4,random,2026-08-23 08:03:59.347483+00:00,Programming & DSA,simple_ability_placeholder,accuracy,0.4724828810550342,Algorithms
+a8f65ff5-8e51-4c8d-9a08-8d1312cf9fb4,random,2026-08-23 08:03:59.347483+00:00,Programming & DSA,simple_ability_placeholder,n_asked,3943.0,Algorithms
+807cf8b9-d64c-4f9b-a021-e8c759f74bcb,bkt_ema_epsilon_greedy,2026-08-23 08:01:10.942944+00:00,Engineering Mathematics,simple_ability_placeholder,concepts_touched,173.0,Engineering Mathematics
+807cf8b9-d64c-4f9b-a021-e8c759f74bcb,bkt_ema_epsilon_greedy,2026-08-23 08:01:10.942944+00:00,Engineering Mathematics,simple_ability_placeholder,mean_true_mastery,0.30220848400065875,Engineering Mathematics
+807cf8b9-d64c-4f9b-a021-e8c759f74bcb,bkt_ema_epsilon_greedy,2026-08-23 08:01:10.942944+00:00,Engineering Mathematics,simple_ability_placeholder,accuracy,0.5074946466809421,Engineering Mathematics
+807cf8b9-d64c-4f9b-a021-e8c759f74bcb,bkt_ema_epsilon_greedy,2026-08-23 08:01:10.942944+00:00,Engineering Mathematics,simple_ability_placeholder,n_asked,12142.0,Engineering Mathematics
+cc0213c2-5d9e-4697-befb-89902556a04e,bkt,2026-08-23 07:58:19.746188+00:00,Engineering Mathematics,simple_ability_placeholder,concepts_touched,119.0,Discrete Mathematics
+cc0213c2-5d9e-4697-befb-89902556a04e,bkt,2026-08-23 07:58:19.746188+00:00,Engineering Mathematics,simple_ability_placeholder,mean_true_mastery,0.3040434666879935,Discrete Mathematics
+cc0213c2-5d9e-4697-befb-89902556a04e,bkt,2026-08-23 07:58:19.746188+00:00,Engineering Mathematics,simple_ability_placeholder,accuracy,0.5457301667508843,Discrete Mathematics
+cc0213c2-5d9e-4697-befb-89902556a04e,bkt,2026-08-23 07:58:19.746188+00:00,Engineering Mathematics,simple_ability_placeholder,n_asked,7916.0,Discrete Mathematics
+9f38c0c5-bf65-4bce-8a81-7c849fee1b1a,ema_only,2026-08-23 07:55:37.294284+00:00,Engineering Mathematics,simple_ability_placeholder,concepts_touched,120.0,Discrete Mathematics
+9f38c0c5-bf65-4bce-8a81-7c849fee1b1a,ema_only,2026-08-23 07:55:37.294284+00:00,Engineering Mathematics,simple_ability_placeholder,mean_true_mastery,0.30283179026438584,Discrete Mathematics
+9f38c0c5-bf65-4bce-8a81-7c849fee1b1a,ema_only,2026-08-23 07:55:37.294284+00:00,Engineering Mathematics,simple_ability_placeholder,accuracy,0.5530546623794212,Discrete Mathematics
+9f38c0c5-bf65-4bce-8a81-7c849fee1b1a,ema_only,2026-08-23 07:55:37.294284+00:00,Engineering Mathematics,simple_ability_placeholder,n_asked,7775.0,Discrete Mathematics
+a8d4ff2c-cbab-4ca0-8f21-c252b47b8397,rule_weakest_topic,2026-08-23 07:51:56.029390+00:00,Engineering Mathematics,simple_ability_placeholder,concepts_touched,120.0,Discrete Mathematics
+a8d4ff2c-cbab-4ca0-8f21-c252b47b8397,rule_weakest_topic,2026-08-23 07:51:56.029390+00:00,Engineering Mathematics,simple_ability_placeholder,mean_true_mastery,0.3332426103915914,Discrete Mathematics
+a8d4ff2c-cbab-4ca0-8f21-c252b47b8397,rule_weakest_topic,2026-08-23 07:51:56.029390+00:00,Engineering Mathematics,simple_ability_placeholder,accuracy,0.5227541371158393,Discrete Mathematics
+a8d4ff2c-cbab-4ca0-8f21-c252b47b8397,rule_weakest_topic,2026-08-23 07:51:56.029390+00:00,Engineering Mathematics,simple_ability_placeholder,n_asked,10152.0,Discrete Mathematics
+386d6fb2-6b0a-4483-af53-4e73e1c1db99,random,2026-08-23 07:50:10.310264+00:00,Engineering Mathematics,simple_ability_placeholder,concepts_touched,120.0,Discrete Mathematics
+386d6fb2-6b0a-4483-af53-4e73e1c1db99,random,2026-08-23 07:50:10.310264+00:00,Engineering Mathematics,simple_ability_placeholder,mean_true_mastery,0.3348223833162039,Engineering Mathematics
+386d6fb2-6b0a-4483-af53-4e73e1c1db99,random,2026-08-23 07:50:10.310264+00:00,Engineering Mathematics,simple_ability_placeholder,accuracy,0.498605577689243,Engineering Mathematics
+386d6fb2-6b0a-4483-af53-4e73e1c1db99,random,2026-08-23 07:50:10.310264+00:00,Engineering Mathematics,simple_ability_placeholder,n_asked,10040.0,Engineering Mathematics
+99589181-ad42-4eb5-9959-728f770d35fd,bkt_ema_epsilon_greedy,2026-08-23 07:48:05.529844+00:00,Data Science & AI,simple_ability_placeholder,concepts_touched,1.0,Big Data Systems
+99589181-ad42-4eb5-9959-728f770d35fd,bkt_ema_epsilon_greedy,2026-08-23 07:48:05.529844+00:00,Data Science & AI,simple_ability_placeholder,mean_true_mastery,0.3,Big Data Systems
+99589181-ad42-4eb5-9959-728f770d35fd,bkt_ema_epsilon_greedy,2026-08-23 07:48:05.529844+00:00,Data Science & AI,simple_ability_placeholder,accuracy,0.4431137724550898,Big Data Systems
+99589181-ad42-4eb5-9959-728f770d35fd,bkt_ema_epsilon_greedy,2026-08-23 07:48:05.529844+00:00,Data Science & AI,simple_ability_placeholder,n_asked,167.0,Big Data Systems
+3edcdf4b-1d39-4c13-9340-27becb320d11,bkt,2026-08-23 07:45:43.567099+00:00,Data Science & AI,simple_ability_placeholder,concepts_touched,1.0,Data Mining and Warehousing
+3edcdf4b-1d39-4c13-9340-27becb320d11,bkt,2026-08-23 07:45:43.567099+00:00,Data Science & AI,simple_ability_placeholder,mean_true_mastery,0.3,Data Mining and Warehousing
+3edcdf4b-1d39-4c13-9340-27becb320d11,bkt,2026-08-23 07:45:43.567099+00:00,Data Science & AI,simple_ability_placeholder,accuracy,0.4782608695652174,Data Mining and Warehousing
+3edcdf4b-1d39-4c13-9340-27becb320d11,bkt,2026-08-23 07:45:43.567099+00:00,Data Science & AI,simple_ability_placeholder,n_asked,161.0,Data Mining and Warehousing
+4c3a055b-7809-4892-8f99-628499d27650,ema_only,2026-08-23 07:43:40.387385+00:00,Data Science & AI,simple_ability_placeholder,concepts_touched,1.0,Data Mining and Warehousing
+4c3a055b-7809-4892-8f99-628499d27650,ema_only,2026-08-23 07:43:40.387385+00:00,Data Science & AI,simple_ability_placeholder,mean_true_mastery,0.3,Data Mining and Warehousing
+4c3a055b-7809-4892-8f99-628499d27650,ema_only,2026-08-23 07:43:40.387385+00:00,Data Science & AI,simple_ability_placeholder,accuracy,0.46835443037974683,Data Mining and Warehousing
+4c3a055b-7809-4892-8f99-628499d27650,ema_only,2026-08-23 07:43:40.387385+00:00,Data Science & AI,simple_ability_placeholder,n_asked,158.0,Data Mining and Warehousing
+37538f73-c634-4015-a23c-2071a450976c,rule_weakest_topic,2026-08-23 07:40:58.521873+00:00,Data Science & AI,simple_ability_placeholder,concepts_touched,1.0,Big Data Systems
+37538f73-c634-4015-a23c-2071a450976c,rule_weakest_topic,2026-08-23 07:40:58.521873+00:00,Data Science & AI,simple_ability_placeholder,mean_true_mastery,0.2999999999999999,Big Data Systems
+37538f73-c634-4015-a23c-2071a450976c,rule_weakest_topic,2026-08-23 07:40:58.521873+00:00,Data Science & AI,simple_ability_placeholder,accuracy,0.39090909090909093,Big Data Systems
+37538f73-c634-4015-a23c-2071a450976c,rule_weakest_topic,2026-08-23 07:40:58.521873+00:00,Data Science & AI,simple_ability_placeholder,n_asked,110.0,Big Data Systems
+a696e0c1-e8aa-430e-9540-c1a9085d28f2,random,2026-08-23 07:39:48.863543+00:00,Data Science & AI,simple_ability_placeholder,concepts_touched,1.0,Big Data Systems
+a696e0c1-e8aa-430e-9540-c1a9085d28f2,random,2026-08-23 07:39:48.863543+00:00,Data Science & AI,simple_ability_placeholder,mean_true_mastery,0.29999999999999993,Big Data Systems
+a696e0c1-e8aa-430e-9540-c1a9085d28f2,random,2026-08-23 07:39:48.863543+00:00,Data Science & AI,simple_ability_placeholder,accuracy,0.3838383838383838,Big Data Systems
+a696e0c1-e8aa-430e-9540-c1a9085d28f2,random,2026-08-23 07:39:48.863543+00:00,Data Science & AI,simple_ability_placeholder,n_asked,99.0,Big Data Systems
+39a72bde-1fae-4c0c-be3d-ce99121b1dca,bkt_ema_epsilon_greedy,2026-08-23 07:35:55.726077+00:00,Core CS (Systems & Theory),simple_ability_placeholder,concepts_touched,1.0,Web Technologies
+39a72bde-1fae-4c0c-be3d-ce99121b1dca,bkt_ema_epsilon_greedy,2026-08-23 07:35:55.726077+00:00,Core CS (Systems & Theory),simple_ability_placeholder,mean_true_mastery,0.3,Web Technologies
+39a72bde-1fae-4c0c-be3d-ce99121b1dca,bkt_ema_epsilon_greedy,2026-08-23 07:35:55.726077+00:00,Core CS (Systems & Theory),simple_ability_placeholder,accuracy,0.7058823529411765,Web Technologies
+39a72bde-1fae-4c0c-be3d-ce99121b1dca,bkt_ema_epsilon_greedy,2026-08-23 07:35:55.726077+00:00,Core CS (Systems & Theory),simple_ability_placeholder,n_asked,17.0,Web Technologies
+e29fb0e4-678c-43d8-a178-67526df8d8c0,bkt,2026-08-23 07:32:14.813003+00:00,Core CS (Systems & Theory),simple_ability_placeholder,mean_true_mastery,0.3003298909090909,Computer Science (Miscellaneous)
+e29fb0e4-678c-43d8-a178-67526df8d8c0,bkt,2026-08-23 07:32:14.813003+00:00,Core CS (Systems & Theory),simple_ability_placeholder,concepts_touched,1.0,Web Technologies
+e29fb0e4-678c-43d8-a178-67526df8d8c0,bkt,2026-08-23 07:32:14.813003+00:00,Core CS (Systems & Theory),simple_ability_placeholder,accuracy,0.7368421052631579,Web Technologies
+e29fb0e4-678c-43d8-a178-67526df8d8c0,bkt,2026-08-23 07:32:14.813003+00:00,Core CS (Systems & Theory),simple_ability_placeholder,n_asked,19.0,Web Technologies
+a9a5ccdc-a970-4cf8-be9a-9d31b50d251b,ema_only,2026-08-23 07:28:29.810936+00:00,Core CS (Systems & Theory),simple_ability_placeholder,concepts_touched,1.0,System Software
+a9a5ccdc-a970-4cf8-be9a-9d31b50d251b,ema_only,2026-08-23 07:28:29.810936+00:00,Core CS (Systems & Theory),simple_ability_placeholder,mean_true_mastery,0.3,System Software
+a9a5ccdc-a970-4cf8-be9a-9d31b50d251b,ema_only,2026-08-23 07:28:29.810936+00:00,Core CS (Systems & Theory),simple_ability_placeholder,accuracy,0.4166666666666667,System Software
+a9a5ccdc-a970-4cf8-be9a-9d31b50d251b,ema_only,2026-08-23 07:28:29.810936+00:00,Core CS (Systems & Theory),simple_ability_placeholder,n_asked,24.0,System Software
+e35556ab-6036-4f6a-90f9-c1aa467591e5,rule_weakest_topic,2026-08-23 07:23:04.990733+00:00,Core CS (Systems & Theory),simple_ability_placeholder,mean_true_mastery,0.30494117647058827,Web Technologies
+e35556ab-6036-4f6a-90f9-c1aa467591e5,rule_weakest_topic,2026-08-23 07:23:04.990733+00:00,Core CS (Systems & Theory),simple_ability_placeholder,concepts_touched,1.0,Software Engineering
+e35556ab-6036-4f6a-90f9-c1aa467591e5,rule_weakest_topic,2026-08-23 07:23:04.990733+00:00,Core CS (Systems & Theory),simple_ability_placeholder,accuracy,0.6,Software Engineering
+e35556ab-6036-4f6a-90f9-c1aa467591e5,rule_weakest_topic,2026-08-23 07:23:04.990733+00:00,Core CS (Systems & Theory),simple_ability_placeholder,n_asked,5.0,Software Engineering
+d5cc0025-706b-45b9-ad1e-dec710d9db51,random,2026-08-23 07:20:14.199473+00:00,Core CS (Systems & Theory),simple_ability_placeholder,n_asked,7.0,System Software
+d5cc0025-706b-45b9-ad1e-dec710d9db51,random,2026-08-23 07:20:14.199473+00:00,Core CS (Systems & Theory),simple_ability_placeholder,concepts_touched,1.0,Cybersecurity
+d5cc0025-706b-45b9-ad1e-dec710d9db51,random,2026-08-23 07:20:14.199473+00:00,Core CS (Systems & Theory),simple_ability_placeholder,mean_true_mastery,0.3,Cybersecurity
+d5cc0025-706b-45b9-ad1e-dec710d9db51,random,2026-08-23 07:20:14.199473+00:00,Core CS (Systems & Theory),simple_ability_placeholder,accuracy,0.375,Cybersecurity
+131b314c-3c84-4833-bdc0-8abd8f1fa2cc,bkt_ema_epsilon_greedy,2026-08-23 07:17:33.401245+00:00,Aptitude,simple_ability_placeholder,concepts_touched,395.0,General Aptitude
+131b314c-3c84-4833-bdc0-8abd8f1fa2cc,bkt_ema_epsilon_greedy,2026-08-23 07:17:33.401245+00:00,Aptitude,simple_ability_placeholder,mean_true_mastery,0.301603783948247,General Aptitude
+131b314c-3c84-4833-bdc0-8abd8f1fa2cc,bkt_ema_epsilon_greedy,2026-08-23 07:17:33.401245+00:00,Aptitude,simple_ability_placeholder,accuracy,0.54485,General Aptitude
+131b314c-3c84-4833-bdc0-8abd8f1fa2cc,bkt_ema_epsilon_greedy,2026-08-23 07:17:33.401245+00:00,Aptitude,simple_ability_placeholder,n_asked,20000.0,General Aptitude
+cb90815b-3e94-4d00-928f-b604c4572c90,bkt,2026-08-23 07:14:39.688920+00:00,Aptitude,simple_ability_placeholder,concepts_touched,398.0,General Aptitude
+cb90815b-3e94-4d00-928f-b604c4572c90,bkt,2026-08-23 07:14:39.688920+00:00,Aptitude,simple_ability_placeholder,mean_true_mastery,0.3017176800452999,General Aptitude
+cb90815b-3e94-4d00-928f-b604c4572c90,bkt,2026-08-23 07:14:39.688920+00:00,Aptitude,simple_ability_placeholder,accuracy,0.54575,General Aptitude
+cb90815b-3e94-4d00-928f-b604c4572c90,bkt,2026-08-23 07:14:39.688920+00:00,Aptitude,simple_ability_placeholder,n_asked,20000.0,General Aptitude
+3abb7c81-3a4b-46f5-a1ce-ca7b268f3624,ema_only,2026-08-23 07:11:36.686064+00:00,Aptitude,simple_ability_placeholder,mean_true_mastery,0.3017062192113254,General Aptitude
+3abb7c81-3a4b-46f5-a1ce-ca7b268f3624,ema_only,2026-08-23 07:11:36.686064+00:00,Aptitude,simple_ability_placeholder,concepts_touched,396.0,General Aptitude
+3abb7c81-3a4b-46f5-a1ce-ca7b268f3624,ema_only,2026-08-23 07:11:36.686064+00:00,Aptitude,simple_ability_placeholder,accuracy,0.5482,General Aptitude
+3abb7c81-3a4b-46f5-a1ce-ca7b268f3624,ema_only,2026-08-23 07:11:36.686064+00:00,Aptitude,simple_ability_placeholder,n_asked,20000.0,General Aptitude
+77fe6d40-9d51-4308-b08a-d58057abb010,rule_weakest_topic,2026-08-23 07:07:13.856458+00:00,Aptitude,simple_ability_placeholder,concepts_touched,398.0,General Aptitude
+77fe6d40-9d51-4308-b08a-d58057abb010,rule_weakest_topic,2026-08-23 07:07:13.856458+00:00,Aptitude,simple_ability_placeholder,mean_true_mastery,0.3507167966342591,General Aptitude
+77fe6d40-9d51-4308-b08a-d58057abb010,rule_weakest_topic,2026-08-23 07:07:13.856458+00:00,Aptitude,simple_ability_placeholder,accuracy,0.55235,General Aptitude
+77fe6d40-9d51-4308-b08a-d58057abb010,rule_weakest_topic,2026-08-23 07:07:13.856458+00:00,Aptitude,simple_ability_placeholder,n_asked,20000.0,General Aptitude
+bba9c4d0-217d-4e27-b145-b524527769ed,random,2026-08-23 07:05:46.786804+00:00,Aptitude,simple_ability_placeholder,concepts_touched,398.0,General Aptitude
+bba9c4d0-217d-4e27-b145-b524527769ed,random,2026-08-23 07:05:46.786804+00:00,Aptitude,simple_ability_placeholder,mean_true_mastery,0.36269486594114536,General Aptitude
+bba9c4d0-217d-4e27-b145-b524527769ed,random,2026-08-23 07:05:46.786804+00:00,Aptitude,simple_ability_placeholder,accuracy,0.53835,General Aptitude
+bba9c4d0-217d-4e27-b145-b524527769ed,random,2026-08-23 07:05:46.786804+00:00,Aptitude,simple_ability_placeholder,n_asked,20000.0,General Aptitude

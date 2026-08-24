@@ -1,0 +1,218 @@
+{
+  "Compiler Design": {
+    "canonical_subject": "Compiler Design",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 214
+  },
+  "Quantitative Aptitude": {
+    "canonical_subject": "General Aptitude",
+    "rule": "already a topic inside General Aptitude (n=605)",
+    "needs_review": false,
+    "record_count": 426
+  },
+  "Verbal Aptitude": {
+    "canonical_subject": "General Aptitude",
+    "rule": "already a topic inside General Aptitude (n=593)",
+    "needs_review": false,
+    "record_count": 2
+  },
+  "Data Structures and Algorithms": {
+    "canonical_subject": "Algorithms",
+    "rule": "majority topics (graph algo/sort/search/hash) are algorithmic",
+    "needs_review": true,
+    "record_count": 46
+  },
+  "Computer Organization and Architecture": {
+    "canonical_subject": "Computer Organization and Architecture",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 481
+  },
+  "Computer Networks": {
+    "canonical_subject": "Computer Networks",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 549
+  },
+  "Databases": {
+    "canonical_subject": "Databases",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 705
+  },
+  "Machine Learning": {
+    "canonical_subject": "Artificial Intelligence",
+    "rule": "merged into Artificial Intelligence (small bucket, closely related GATE DA topic)",
+    "needs_review": false,
+    "record_count": 22
+  },
+  "Physics": {
+    "canonical_subject": "Engineering Mathematics",
+    "rule": "single stray record, closest to Eng. Math content",
+    "needs_review": true,
+    "record_count": 2
+  },
+  "Software Engineering": {
+    "canonical_subject": "Software Engineering",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Cybersecurity": {
+    "canonical_subject": "Cybersecurity",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Cloud Computing": {
+    "canonical_subject": "Cloud Computing",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 2
+  },
+  "Programming Fundamentals": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "all 9 records are Programming Fundamentals topic",
+    "needs_review": false,
+    "record_count": 9
+  },
+  "System Software": {
+    "canonical_subject": "System Software",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Operating Systems": {
+    "canonical_subject": "Operating Systems",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Programming and Data Structure": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "case/pluralization dupe",
+    "needs_review": false,
+    "record_count": 991
+  },
+  "Artificial Intelligence": {
+    "canonical_subject": "Artificial Intelligence",
+    "rule": "canonical form (GATE DA)",
+    "needs_review": false,
+    "record_count": 132
+  },
+  "Programming and Data Structures": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 114
+  },
+  "General Aptitude": {
+    "canonical_subject": "General Aptitude",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1859
+  },
+  "Web Technologies": {
+    "canonical_subject": "Web Technologies",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 2
+  },
+  "Discrete Mathematics": {
+    "canonical_subject": "Discrete Mathematics",
+    "rule": "canonical form, kept distinct (large, coherent bucket)",
+    "needs_review": false,
+    "record_count": 458
+  },
+  "Mathematics": {
+    "canonical_subject": "Engineering Mathematics",
+    "rule": "fallback for non-discrete-math topics; see TOPIC_OVERRIDES for the Discrete-Math split",
+    "needs_review": true,
+    "record_count": 967
+  },
+  "Computer Science": {
+    "canonical_subject": "Computer Science (Miscellaneous)",
+    "rule": "mixed grab-bag: Software Eng/OOP/Java/Graphics/Web/Cloud topics; not force-merged into any single GATE subject",
+    "needs_review": true,
+    "record_count": 118
+  },
+  "Digital Logic": {
+    "canonical_subject": "Digital Logic",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 498
+  },
+  "Operations Research": {
+    "canonical_subject": "Operations Research",
+    "rule": "canonical form (GATE DA)",
+    "needs_review": false,
+    "record_count": 16
+  },
+  "Programming": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "100/104 topics are 'Programming in C'",
+    "needs_review": false,
+    "record_count": 104
+  },
+  "Data Structures": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "same GATE syllabus section",
+    "needs_review": false,
+    "record_count": 86
+  },
+  "Operating System": {
+    "canonical_subject": "Operating Systems",
+    "rule": "case/pluralization dupe",
+    "needs_review": false,
+    "record_count": 537
+  },
+  "Theory of Computation": {
+    "canonical_subject": "Theory of Computation",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 409
+  },
+  "Data Mining and Warehousing": {
+    "canonical_subject": "Data Mining and Warehousing",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Algorithms": {
+    "canonical_subject": "Algorithms",
+    "rule": "canonical form (kept distinct from PDS per GATE syllabus)",
+    "needs_review": false,
+    "record_count": 284
+  },
+  "Engineering Mathematics": {
+    "canonical_subject": "Engineering Mathematics",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 51
+  },
+  "Big Data Systems": {
+    "canonical_subject": "Big Data Systems",
+    "rule": "canonical form",
+    "needs_review": false,
+    "record_count": 1
+  },
+  "Digital Electronics": {
+    "canonical_subject": "Digital Logic",
+    "rule": "same GATE syllabus section as Digital Logic",
+    "needs_review": true,
+    "record_count": 4
+  },
+  "Binary Tree": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "single stray record, data-structure topic",
+    "needs_review": true,
+    "record_count": 1
+  },
+  "Stack": {
+    "canonical_subject": "Programming and Data Structures",
+    "rule": "single stray record, data-structure topic",
+    "needs_review": true,
+    "record_count": 1
+  }
+}

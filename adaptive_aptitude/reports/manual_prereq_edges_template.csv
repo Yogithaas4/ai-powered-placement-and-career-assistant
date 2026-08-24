@@ -1,0 +1,11 @@
+prereq_concept_id,dependent_concept_id,note
+theory-of-computation::regular-expression::regular-expression-construction,compiler-design::compilation-phases::lexical-analysis,Regular-expression construction is foundational for lexical specification and token recognition.
+theory-of-computation::theory-of-computation::finite-automata,compiler-design::compilation-phases::lexical-analysis,Finite automata underpin DFA/NFA-based lexical analyzers.
+theory-of-computation::context-free-grammar::grammar-classification,compiler-design::parsing::ll1-predictive-parsing-table,Context-free grammar classification is prerequisite knowledge for LL(1) parsing-table construction.
+discrete-mathematics::mathematical-logic::propositional-logic,artificial-intelligence::artificial-intelligence::propositional-logic,AI propositional reasoning builds directly on propositional logic.
+discrete-mathematics::mathematical-logic::first-order-logic-predicate-logic,artificial-intelligence::artificial-intelligence::first-order-logic,First-order predicate logic is foundational for first-order knowledge representation in AI.
+discrete-mathematics::graph-theory::graph-properties,algorithms::graph-algorithms::graph-representation,Graph definitions and properties precede algorithmic graph representations.
+discrete-mathematics::mathematical-logic::relations,databases::databases::relational-algebra,Relations are the mathematical foundation of relational algebra.
+programming-and-data-structures::data-structures::hashing,databases::file-organization::hashing,Data-structure hashing precedes file-organization hashing in databases.
+programming-and-data-structures::data-structures::b-tree,databases::databases::b-tree,B-tree data-structure concepts underpin B-tree database indexing.
+programming-and-data-structures::programming-in-c::recursion,algorithms::recurrence-relation::solving-recurrences,Recursive-program understanding precedes recurrence formulation and analysis.

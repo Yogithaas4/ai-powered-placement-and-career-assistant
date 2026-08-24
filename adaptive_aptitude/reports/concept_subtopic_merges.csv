@@ -1,0 +1,31 @@
+concept_id,canonical_subject,canonical_topic,merged_subtopic_labels,kept_label,total_question_count
+artificial-intelligence::artificial-intelligence::first-order-logic,Artificial Intelligence,Artificial Intelligence,First Order Logic | First-Order Logic,First-Order Logic,3
+artificial-intelligence::artificial-intelligence::heuristic-search,Artificial Intelligence,Artificial Intelligence,Heuristic Search | heuristic-search,Heuristic Search,2
+artificial-intelligence::artificial-intelligence::search-algorithms,Artificial Intelligence,Artificial Intelligence,Search Algorithms | search-algorithms,Search Algorithms,9
+computer-networks::computer-networks::stop-and-wait,Computer Networks,Computer Networks,Stop and Wait | Stop-and-Wait,Stop and Wait,7
+computer-organization-and-architecture::addressing-modes::auto-increment-addressing,Computer Organization and Architecture,Addressing Modes,Auto-Increment Addressing | Auto-increment Addressing,Auto-Increment Addressing,2
+databases::databases::b-tree,Databases,Databases,B Tree | B-Tree,B-Tree,50
+general-aptitude::analytical-aptitude::coding-decoding,General Aptitude,Analytical Aptitude,Coding Decoding | Coding-Decoding,Coding Decoding,2
+general-aptitude::quantitative-aptitude::geometry-area,General Aptitude,Quantitative Aptitude,Geometry / Area | Geometry — Area,Geometry — Area,7
+general-aptitude::quantitative-aptitude::geometry-mensuration,General Aptitude,Quantitative Aptitude,Geometry / Mensuration | Geometry — Mensuration,Geometry / Mensuration,8
+general-aptitude::quantitative-aptitude::geometry-trigonometry,General Aptitude,Quantitative Aptitude,Geometry / Trigonometry | Geometry — Trigonometry,Geometry / Trigonometry,2
+general-aptitude::quantitative-aptitude::geometry-triangles,General Aptitude,Quantitative Aptitude,Geometry – Triangles | Geometry — Triangles,Geometry — Triangles,3
+general-aptitude::quantitative-aptitude::speed-time-distance,General Aptitude,Quantitative Aptitude,"Speed / Time / Distance | Speed, Time & Distance",Speed / Time / Distance,10
+operating-systems::io-handling::spooling,Operating Systems,IO Handling,Spooling,Spooling,3
+operating-systems::page-replacement::virtual-memory,Operating Systems,Page Replacement,Virtual Memory | virtual-memory,Virtual Memory,2
+programming-and-data-structures::algorithms::algorithm-design-techniques,Programming and Data Structures,algorithms,Algorithm Design Techniques | algorithm-design-techniques,algorithm-design-techniques,14
+programming-and-data-structures::algorithms::asymptotic-notations,Programming and Data Structures,algorithms,Asymptotic Notations | asymptotic-notations,asymptotic-notations,25
+programming-and-data-structures::algorithms::binary-search,Programming and Data Structures,algorithms,Binary Search | binary-search,binary-search,5
+programming-and-data-structures::algorithms::graph-algorithms,Programming and Data Structures,algorithms,Graph Algorithms | graph-algorithms,graph-algorithms,19
+programming-and-data-structures::algorithms::hashing,Programming and Data Structures,Algorithms,Hashing | hashing,Hashing,9
+programming-and-data-structures::algorithms::huffman-code,Programming and Data Structures,algorithms,Huffman Code | huffman-code,huffman-code,5
+programming-and-data-structures::algorithms::identify-function,Programming and Data Structures,algorithms,Identify Function | identify-function,identify-function,19
+programming-and-data-structures::algorithms::minimum-spanning-tree,Programming and Data Structures,algorithms,Minimum Spanning Tree | minimum-spanning-tree,minimum-spanning-tree,7
+programming-and-data-structures::algorithms::p-np-npc-nph,Programming and Data Structures,algorithms,P NP NPC NPH | p-np-npc-nph,p-np-npc-nph,6
+programming-and-data-structures::algorithms::recurrence-relation,Programming and Data Structures,algorithms,Recurrence Relation | recurrence-relation,recurrence-relation,14
+programming-and-data-structures::algorithms::searching,Programming and Data Structures,Algorithms,Searching | searching,Searching,8
+programming-and-data-structures::algorithms::sorting,Programming and Data Structures,Algorithms,Sorting | sorting,Sorting,46
+programming-and-data-structures::algorithms::time-complexity,Programming and Data Structures,Algorithms,Time Complexity | time-complexity,Time Complexity,42
+programming-and-data-structures::data-structures::array,Programming and Data Structures,Data Structures,Array | array,Array,9
+programming-and-data-structures::data-structures::b-tree,Programming and Data Structures,Data Structures,B-Tree | b-tree,B-Tree,9
+programming-and-data-structures::data-structures::binary-tree,Programming and Data Structures,Data Structures,Binary Tree | binary-tree,Binary Tree,33

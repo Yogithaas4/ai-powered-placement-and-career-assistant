@@ -1,0 +1,90 @@
+{
+  "Compiler Design": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 214
+  },
+  "General Aptitude": {
+    "practice_category": "Aptitude",
+    "record_count": 2287
+  },
+  "Algorithms": {
+    "practice_category": "Programming & DSA",
+    "record_count": 330
+  },
+  "Computer Organization and Architecture": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 481
+  },
+  "Computer Networks": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 549
+  },
+  "Databases": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 705
+  },
+  "Artificial Intelligence": {
+    "practice_category": "Data Science & AI",
+    "record_count": 154
+  },
+  "Engineering Mathematics": {
+    "practice_category": "Engineering Mathematics",
+    "record_count": 740
+  },
+  "Software Engineering": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 1
+  },
+  "Cybersecurity": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 1
+  },
+  "Cloud Computing": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 2
+  },
+  "Programming and Data Structures": {
+    "practice_category": "Programming & DSA",
+    "record_count": 1306
+  },
+  "System Software": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 1
+  },
+  "Operating Systems": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 538
+  },
+  "Web Technologies": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 2
+  },
+  "Discrete Mathematics": {
+    "practice_category": "Engineering Mathematics",
+    "record_count": 738
+  },
+  "Computer Science (Miscellaneous)": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 118
+  },
+  "Digital Logic": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 502
+  },
+  "Operations Research": {
+    "practice_category": "Data Science & AI",
+    "record_count": 16
+  },
+  "Theory of Computation": {
+    "practice_category": "Core CS (Systems & Theory)",
+    "record_count": 409
+  },
+  "Data Mining and Warehousing": {
+    "practice_category": "Data Science & AI",
+    "record_count": 1
+  },
+  "Big Data Systems": {
+    "practice_category": "Data Science & AI",
+    "record_count": 1
+  }
+}

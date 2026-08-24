@@ -1,0 +1,93 @@
+prereq_concept_id,dependent_concept_id,note
+theory-of-computation::regular-expression::regular-expression-construction,compiler-design::compilation-phases::lexical-analysis,Regular-expression construction is foundational for lexical specification and token recognition.
+theory-of-computation::theory-of-computation::finite-automata,compiler-design::compilation-phases::lexical-analysis,Finite automata underpin DFA/NFA-based lexical analyzers.
+theory-of-computation::context-free-grammar::grammar-classification,compiler-design::parsing::ll1-predictive-parsing-table,Context-free grammar classification is prerequisite knowledge for LL(1) parsing-table construction.
+discrete-mathematics::mathematical-logic::propositional-logic,artificial-intelligence::artificial-intelligence::propositional-logic,AI propositional reasoning builds directly on propositional logic.
+discrete-mathematics::mathematical-logic::first-order-logic,artificial-intelligence::artificial-intelligence::first-order-logic,First-order predicate logic is foundational for first-order knowledge representation in AI.
+discrete-mathematics::graph-theory::graph-properties,algorithms::graph-algorithms::graph-representation,Graph definitions and properties precede algorithmic graph representations.
+discrete-mathematics::set-theory-algebra::relations,databases::databases::relational-algebra,Relations are the mathematical foundation of relational algebra.
+programming-and-data-structures::data-structures::hashing,databases::file-organization::hashing,Data-structure hashing precedes file-organization hashing in databases.
+programming-and-data-structures::data-structures::b-tree,databases::databases::b-tree,B-tree data-structure concepts underpin B-tree database indexing.
+programming-and-data-structures::programming-in-c::recursion,algorithms::recurrence-relation::solving-recurrences,Recursive-program understanding precedes recurrence formulation and analysis.
+algorithms::data-structures::introduction,algorithms::graph-algorithms::graph-representation,Understanding data structures precedes algorithmic graph representation.
+algorithms::data-structures::introduction,algorithms::searching::search-algorithms,Basic data-structure concepts support search algorithm reasoning.
+algorithms::asymptotic-notation::asymptotic-properties,algorithms::time-complexity::asymptotic-analysis,Asymptotic properties are prerequisite for time-complexity analysis.
+algorithms::asymptotic-notations::function-growth-rates,algorithms::time-complexity::asymptotic-analysis,Function-growth comparison supports asymptotic time analysis.
+algorithms::asymptotic-notation::recurrence-relations,algorithms::recurrence-relation::solving-recurrences,Recurrence formulation precedes recurrence solving.
+algorithms::recurrence-relation::solving-recurrences,algorithms::algorithm-design::divide-and-conquer,Recurrence-solving supports analysis of divide-and-conquer algorithms.
+algorithms::graph-algorithms::graph-representation,algorithms::graph-algorithms::graph-traversal-properties,Graph representation is prerequisite for traversal reasoning.
+algorithms::graph-algorithms::graph-representation,algorithms::graph-algorithms::bfs,Graph representation is prerequisite for BFS.
+algorithms::graph-algorithms::graph-representation,algorithms::graph-algorithms::dfs,Graph representation is prerequisite for DFS.
+algorithms::graph-algorithms::bfs,algorithms::shortest-path::bfs-as-shortest-path,BFS knowledge supports unweighted shortest-path reasoning.
+algorithms::graph-algorithms::dfs,algorithms::graph-algorithms::strongly-connected-components,DFS is a core traversal used in SCC algorithms.
+algorithms::graph-algorithms::graph-representation,algorithms::graph-algorithms::minimum-spanning-tree,Graph representation is prerequisite for MST reasoning.
+algorithms::graph-algorithms::graph-representation,algorithms::shortest-path::single-source-shortest-path,Graph representation precedes shortest-path algorithms.
+algorithms::shortest-path::single-source-shortest-path,algorithms::graph-algorithms::bellman-ford-algorithm,Single-source shortest-path formulation supports Bellman-Ford.
+algorithms::shortest-path::floyd-warshall,algorithms::dynamic-programming::all-pairs-shortest-path,Floyd-Warshall is a dynamic-programming all-pairs shortest-path method.
+algorithms::sorting::comparison-based-sorting,algorithms::sorting::merge-sort,Comparison-based sorting is prerequisite for merge-sort analysis.
+algorithms::sorting::comparison-based-sorting,algorithms::sorting::quick-sort,Comparison-based sorting is prerequisite for quick-sort analysis.
+algorithms::sorting::comparison-based-sorting,algorithms::sorting::heap-sort,Comparison-based sorting provides the baseline for heap-sort reasoning.
+algorithms::sorting::merging,algorithms::sorting::merge-sort,Merging is a core operation in merge sort.
+algorithms::heaps::priority-queue,algorithms::sorting::heap-sort,Heap and priority-queue concepts support heap-sort reasoning.
+algorithms::recursion::recursion-tracing,algorithms::recurrence-relation::recursion-analysis,Tracing recursive calls supports recursive complexity analysis.
+algorithms::recurrence-relation::recursion-analysis,algorithms::asymptotic-notations::recurrence-relations,Recurrence analysis connects recursive definitions to asymptotic notation.
+programming-and-data-structures::data-structures::array-matrix-representation,programming-and-data-structures::array::binary-search-implementation-analysis,Array representation supports array-search implementation analysis.
+programming-and-data-structures::data-structures::binary-tree-representation,programming-and-data-structures::data-structures::binary-tree-recursion,Tree representation supports recursive tree processing.
+programming-and-data-structures::data-structures::binary-tree-properties,programming-and-data-structures::data-structures::binary-search-tree,Binary-tree properties precede BST reasoning.
+programming-and-data-structures::data-structures::binary-search-tree,programming-and-data-structures::data-structures::binary-search-tree-avl-tree,BST concepts precede AVL-tree balancing.
+programming-and-data-structures::programming-in-c::recursion,programming-and-data-structures::programming-in-c::recursion-static-variables,Basic recursion precedes recursion with static-state behavior.
+databases::databases::dbms-introduction,databases::databases::relational-model,DBMS fundamentals precede relational-model reasoning.
+databases::databases::relational-model,databases::databases::relational-algebra,The relational model is foundational for relational algebra.
+databases::databases::relational-algebra,databases::databases::sql,Relational algebra concepts support SQL semantics.
+databases::databases::sql,databases::databases::sql-query,SQL fundamentals precede query reasoning.
+databases::databases::sql,databases::databases::sql-joins,SQL fundamentals precede join queries.
+databases::database-normalization::normalization-goals,databases::database-normalization::normal-forms,Normalization goals precede normal-form analysis.
+databases::database-normalization::armstrongs-axioms-fd-properties,databases::database-normalization::minimal-cover-normal-forms,Functional-dependency properties support minimal-cover reasoning.
+databases::databases::relational-model,databases::er-diagram::entity-relationships,Relational-model understanding supports ER-to-relational mapping.
+databases::databases::transaction-management,databases::databases::transactions-and-concurrency-control,Transaction concepts precede concurrency-control reasoning.
+databases::transaction-and-concurrency::acid-properties,databases::databases::transaction-and-concurrency,ACID concepts provide foundational transaction semantics.
+databases::databases::transaction-and-concurrency,databases::databases::deadlock-prevention-avoidance-detection,Concurrency concepts precede deadlock handling.
+operating-systems::operating-system::os-fundamentals,operating-systems::operating-system::process-management,OS fundamentals precede process-management concepts.
+operating-systems::operating-system::os-fundamentals,operating-systems::operating-system::memory-management,OS fundamentals precede memory-management concepts.
+operating-systems::operating-system::process-management,operating-systems::process-management::process-states,Process management precedes process-state reasoning.
+operating-systems::process-management::process-concepts,operating-systems::process-management::process-scheduling,Process concepts precede scheduling.
+operating-systems::process-scheduling::process-state-transitions,operating-systems::process-scheduling::process-scheduling,State transitions support scheduling reasoning.
+operating-systems::memory-management::virtual-memory,operating-systems::virtual-memory::virtual-memory-concepts,Virtual-memory concepts unify memory-management and paging reasoning.
+operating-systems::virtual-memory::virtual-memory-concepts,operating-systems::virtual-memory::page-table,Virtual-memory concepts precede page-table reasoning.
+operating-systems::virtual-memory::page-table,operating-systems::virtual-memory::multi-level-page-table,Page tables are prerequisite for multi-level page tables.
+operating-systems::page-replacement::virtual-memory,operating-systems::page-replacement::page-replacement-algorithms,Virtual memory precedes page-replacement algorithms.
+operating-systems::operating-system::deadlock,operating-systems::deadlocks::deadlock-prevention,Deadlock fundamentals precede prevention techniques.
+operating-systems::operating-system::deadlock,operating-systems::deadlocks::deadlock-detection,Deadlock fundamentals precede detection techniques.
+theory-of-computation::formal-languages::general,theory-of-computation::regular-languages::dfanfa,Formal-language foundations precede regular-language automata.
+theory-of-computation::regular-languages::dfanfa,theory-of-computation::finite-automata::minimal-dfa-construction,DFA/NFA equivalence supports DFA minimization.
+theory-of-computation::regular-languages::regular-expressions,theory-of-computation::regular-expression::regular-expression-construction,Regular expressions provide the formal basis for construction problems.
+theory-of-computation::context-free-languages::cfg,theory-of-computation::context-free-grammar::language-generated-by-grammar,CFG knowledge precedes language-derivation reasoning.
+theory-of-computation::context-free-languages::pushdown-automata,theory-of-computation::pushdown-automata::pda-properties,PDA basics precede PDA property questions.
+theory-of-computation::pushdown-automata::pda-properties,theory-of-computation::pushdown-automata::dpda-vs-npda,PDA properties precede deterministic-vs-nondeterministic PDA comparison.
+theory-of-computation::decidability::decidable-problems,theory-of-computation::decidability::reduction,Decidability concepts precede reduction-based reasoning.
+compiler-design::compilation-phases::compiler-phases-overview,compiler-design::compilation-phases::lexical-analysis,Compiler phase overview precedes detailed lexical analysis.
+compiler-design::compilation-phases::lexical-analysis,compiler-design::parsing::top-down-parsing,Lexical analysis precedes parsing in the compiler pipeline.
+compiler-design::grammar::cfg-properties,compiler-design::grammar::ll1-predictive-parsing,CFG properties support LL(1) grammar analysis.
+compiler-design::parsing::top-down-parsing,compiler-design::parsing::ll1-transformation,Top-down parsing concepts precede LL(1) transformations.
+compiler-design::parsing::bottom-up-parsing,compiler-design::lr-parser::slr-lalr-clr,Bottom-up parsing is foundational for LR-family parser analysis.
+compiler-design::intermediate-code::intermediate-representations,compiler-design::basic-blocks::three-address-code,Intermediate representations precede basic-block and TAC reasoning.
+compiler-design::basic-blocks::three-address-code,compiler-design::code-optimization::dag-representation,Three-address code supports DAG-based optimization representation.
+artificial-intelligence::artificial-intelligence::agents,artificial-intelligence::agents::agent-architecture,Agent concepts precede architecture details.
+artificial-intelligence::artificial-intelligence::problem-solving,artificial-intelligence::artificial-intelligence::search-algorithms,Problem-solving formulation precedes search algorithms.
+artificial-intelligence::heuristic-search::a-algorithm,artificial-intelligence::a-algorithm::a-search,A* algorithm concepts precede detailed A* search questions.
+artificial-intelligence::heuristic-search::admissible-heuristic,artificial-intelligence::a-algorithm::a-search,Admissible heuristics are central to A* search reasoning.
+artificial-intelligence::artificial-intelligence::propositional-logic,artificial-intelligence::artificial-intelligence::logical-reasoning,Propositional logic supports logical-reasoning questions.
+artificial-intelligence::artificial-intelligence::knowledge-representation,artificial-intelligence::artificial-intelligence::first-order-logic,Knowledge representation precedes first-order representation.
+artificial-intelligence::machine-learning::introduction,artificial-intelligence::machine-learning::data-preprocessing,ML fundamentals precede preprocessing concepts.
+discrete-mathematics::mathematical-logic::propositional-logic,discrete-mathematics::mathematical-logic::propositional-logic-tautology,Basic propositional logic precedes tautology analysis.
+discrete-mathematics::mathematical-logic::propositional-logic,discrete-mathematics::mathematical-logic::normal-forms,Propositional logic precedes normal-form reasoning.
+discrete-mathematics::graph-theory::graph-properties,discrete-mathematics::graph-theory::bipartite-graphs,Graph properties precede specialized graph classes.
+digital-logic::combinational-circuits::logic-gates,digital-logic::combinational-circuits::multiplexers,Logic-gate fundamentals precede multiplexer reasoning.
+digital-logic::number-representation::number-representation,digital-logic::number-representation::twos-complement-representation,Number representation precedes two’s-complement representation.
+digital-logic::flip-flop::flip-flop,digital-logic::flip-flop::jk-vs-sr-flip-flop,Basic flip-flop concepts precede flip-flop comparisons.
+computer-organization-and-architecture::pipelining::pipeline-stages,computer-organization-and-architecture::pipelining::pipeline-hazards,Pipeline stages precede hazard analysis.
+computer-organization-and-architecture::pipelining::pipeline-stages,computer-organization-and-architecture::pipelining::pipeline-performance,Pipeline stages precede performance analysis.
+computer-organization-and-architecture::pipelining::pipeline-performance,computer-organization-and-architecture::pipelining::pipeline-speedup,Pipeline performance precedes speedup analysis.
+engineering-mathematics::probability::basic-probability,engineering-mathematics::probability::conditional-probability,Basic probability precedes conditional probability.
+engineering-mathematics::probability::conditional-probability,engineering-mathematics::probability::conditional-probability-bayes,Conditional probability precedes Bayes theorem applications.
+engineering-mathematics::probability::probability-distribution,engineering-mathematics::probability::probability-binomial,Distribution concepts precede binomial-distribution questions.

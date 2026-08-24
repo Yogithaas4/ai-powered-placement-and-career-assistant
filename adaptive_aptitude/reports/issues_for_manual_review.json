@@ -1,0 +1,2520 @@
+{
+  "numerical_answer_not_parseable_as_number": [
+    {
+      "question_id": "da::3.34.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "One giga bytes of data are to be organized as an indexed-sequential file with a uniform blocking fac...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "da::13.1.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Data Structures",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "A. Derive a recurrence relation for the size of the smallest AVL tree with height h. B. What is the ...",
+      "correct_answer": "TBA"
+    },
+    {
+      "question_id": "em::2.29.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The real root of the equation 5x − 2cos x − 1 = 0 (up to two decimal accuracy) is _______",
+      "correct_answer": "0.53 to 0.56"
+    },
+    {
+      "question_id": "em::2.35.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "If y = f(x) is the solution of d²y/dx² = 0 with the boundary conditions y = 5 at x = 0 and dy/dx = 2...",
+      "correct_answer": "34 to 36"
+    },
+    {
+      "question_id": "em::2.36.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The value of the contour integral (1/2πj) ∮ (z + 1/z)² dz evaluated over the unit circle |z| = 1 is ...",
+      "correct_answer": "≈ 0 (range: −0.0001 to 0.0001)"
+    },
+    {
+      "question_id": "em::2.37.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The value of the double integral ∫₀¹ ∫₀¹ x/(1 + y²) dx dy is _________.",
+      "correct_answer": "π/8"
+    },
+    {
+      "question_id": "em::2.37.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "Compute the value of: ∫_{1/π}^{2/π} cos(1/x)/x² dx",
+      "correct_answer": "−1"
+    },
+    {
+      "question_id": "em::2.37.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The value of ∫₀^{π/4} x·cos(x²) dx correct to three decimal places (assuming that π = 3.14) is ____",
+      "correct_answer": "0.288 to 0.289"
+    },
+    {
+      "question_id": "em::2.38.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The value of the following limit is ________________: lim_{x→0+} √x / (1 − e^{2√x})",
+      "correct_answer": "−0.5"
+    },
+    {
+      "question_id": "em::2.41.23",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "The minimum value of the function f(x) = (1/3)x(x² − 3) in the interval −100 ≤ x ≤ 100 occurs at x =...",
+      "correct_answer": "−100"
+    },
+    {
+      "question_id": "em::2.41.30",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "Let f(x) = 3x³ − 7x² + 5x + 6. The maximum value of f(x) over the interval [0, 2] is ________ (up to...",
+      "correct_answer": "11.5 to 12.5"
+    },
+    {
+      "question_id": "em::2.41.34",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "numerical",
+      "snippet": "Consider the real-valued function g(x) = max{(x − 2)², −2x + 7}, where x ∈ (−∞, ∞). The minimum valu...",
+      "correct_answer": "0.9 to 1.1"
+    },
+    {
+      "question_id": "em::3.28.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Linear Algebra",
+      "question_type": "numerical",
+      "snippet": "Consider two vectors: a⃗ = 5î + 7ĵ + 2k̂ b⃗ = 3î − ĵ + 6k̂  Magnitude of the component of a⃗ orthogo...",
+      "correct_answer": "7.90 to 8.70"
+    },
+    {
+      "question_id": "em::4.5.15",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question_type": "numerical",
+      "snippet": "The chance of rainfall in the afternoon is twice that in the morning and there is no chance of rain ...",
+      "correct_answer": "0.035 to 0.04"
+    },
+    {
+      "question_id": "em::4.12.29",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question_type": "numerical",
+      "snippet": "In a group of 11 people, what is the probability that exactly two people have birthday on the same d...",
+      "correct_answer": "0.14 to 0.15"
+    },
+    {
+      "question_id": "em::5.40.10",
+      "origin_file": "questions_clean.json",
+      "subject": "General Aptitude",
+      "topic": "Quantitative Aptitude",
+      "question_type": "numerical",
+      "snippet": "From a circular sheet of paper of radius 30 cm, a sector of 10% area is removed. If the remaining pa...",
+      "correct_answer": "3√11"
+    },
+    {
+      "question_id": "em::5.105.13",
+      "origin_file": "questions_clean.json",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability",
+      "question_type": "numerical",
+      "snippet": "It would take one machine 4 hours to complete a production order and another machine 2 hours to comp...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "em::5.105.14",
+      "origin_file": "questions_clean.json",
+      "subject": "General Aptitude",
+      "topic": "Numerical Ability",
+      "question_type": "numerical",
+      "snippet": "Two design consultants, P and Q, started working from 8 AM for a client. The client budgeted a total...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::3.6.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "CO and Architecture",
+      "question_type": "numerical",
+      "snippet": "The number of logical CPUs in a computer having two physical quad-core chips with hyper threading en...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::29.2.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes?",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::29.3.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "A company needs to develop a digital signal processing software for one of its newest inventions. Th...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::29.3.20",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "What is the availability of the software with the following reliability figures: Mean Time Between F...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::29.3.22",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "In a class definition with 10 methods, to make the class maximally cohesive, number of direct and in...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::29.8.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "If in a software project the number of user inputs, user outputs, enquiries, files and external inte...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::29.10.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "If a program P calls two subprograms P1 and P2, and P1 can fail 50% of the time and P2 can fail 40% ...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::31.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Science",
+      "topic": "Multimedia",
+      "question_type": "numerical",
+      "snippet": "Consider an uncompressed stereo audio signal of CD quality which is sampled at 44.1 kHz and quantize...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::32.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Numerical Methods",
+      "question_type": "numerical",
+      "snippet": "Given X: 0  10  16 Y: 6  16  28 The interpolated value at X=4 using piecewise linear interpolation i...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::32.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Numerical Methods",
+      "question_type": "numerical",
+      "snippet": "Using Newton-Raphson method, a root correct to 3 decimal places of x³ − 3x − 5 = 0 is",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::32.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Numerical Methods",
+      "question_type": "numerical",
+      "snippet": "Consider the polynomial p(x) = a₀ + a₁x + a₂x² + a₃x³, where aᵢ ≠ 0, ∀i. The minimum number of multi...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.0.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Operating System",
+      "question_type": "numerical",
+      "snippet": "Given reference to the following pages by a program: 0,9,0,1,8,1,8,7,8,7,1,2,8,2,7,8,2,3,8,3 How man...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.0.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Operating System",
+      "question_type": "numerical",
+      "snippet": "Determine the number of page faults when references to pages occur in the order: 1,2,4,5,2,1,2,4. As...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Operating System",
+      "question_type": "numerical",
+      "snippet": "A particular parallel program computation requires 100 seconds when executed on a single CPU. If 20%...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.5.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Deadlock",
+      "question_type": "numerical",
+      "snippet": "Consider a system having m resources of the same type. These resources are shared by 3 processes A, ...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.6.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Storage",
+      "question_type": "numerical",
+      "snippet": "Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes o...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.6.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Storage",
+      "question_type": "numerical",
+      "snippet": "A hard disk system has the following parameters: - Number of tracks = 500 - Number of sectors/track ...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.6.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Storage",
+      "question_type": "numerical",
+      "snippet": "Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes o...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.6.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Scheduling",
+      "question_type": "numerical",
+      "snippet": "Disk requests come to a disk driver for cylinders in the order 10, 22, 20, 2, 40, 6 and 38 at a time...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.6.11",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Storage",
+      "question_type": "numerical",
+      "snippet": "A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with 0 de...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.7.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk Scheduling",
+      "question_type": "numerical",
+      "snippet": "Consider a disk sequence with 100 cylinders. The requests to access the cylinder occur in the follow...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.8.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin w...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.10.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Management",
+      "question_type": "numerical",
+      "snippet": "Consider the following program: main() {   fork();   fork();   fork(); } How many new processes will...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.13.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "I/O Handling",
+      "question_type": "numerical",
+      "snippet": "What is the bit rate of a video terminal unit with 80 characters/line, 8 bits/character and horizont...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.15.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "question_type": "numerical",
+      "snippet": "In a 64-bit machine, with 2 GB RAM, and 8 KB page size, how many entries will be there in the page t...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.15.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "question_type": "numerical",
+      "snippet": "Consider a logical address space of 8 pages of 1024 words each, mapped onto a physical memory of 32 ...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.18.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "Determine the number of page faults when references to pages occur in the following order: 1, 2, 4, ...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.18.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "Determine the number of page faults when references to pages occur in the order: 1, 2, 4, 5, 2, 1, 2...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.18.11",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "Consider the following page reference string: 1 2 3 4 2 1 5 6 2 1 2 3 7 6 3 2 1 2 3 6 What are the m...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.18.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "Consider the list of page references in the time line as below: 9 6 2 3 4 4 4 4 3 4 4 2 5 8 6 8 5 5 ...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.21.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "numerical",
+      "snippet": "Four jobs to be executed on a single processor system arrive at time 0 in the order A, B, C, D. Thei...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.21.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "numerical",
+      "snippet": "Consider three CPU-intensive processes which require 10, 20 and 30 time units and arrive at times 0,...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.21.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "numerical",
+      "snippet": "The following table shows the processes in the ready queue and time required for each process for co...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.21.23",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "numerical",
+      "snippet": "Suppose two jobs, each of which needs 10 minutes of CPU time, start simultaneously. Assume 50% I/O w...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.25.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Resource Allocation",
+      "question_type": "numerical",
+      "snippet": "Consider a system having 'm' resources of the same type. The resources are shared by 3 processes A, ...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.25.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Resource Allocation",
+      "question_type": "numerical",
+      "snippet": "Consider a system having 'n' resources of same type. These resources are shared by 3 processes A, B,...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.25.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Resource Allocation",
+      "question_type": "numerical",
+      "snippet": "What is the minimum number of resources required to ensure that deadlock will never occur, if there ...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::36.28.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "question_type": "numerical",
+      "snippet": "At a particular time of computation, the value of a counting semaphore is 7. Then 20 P (wait) operat...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.28.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "question_type": "numerical",
+      "snippet": "At a particular time of computation, the value of a counting semaphore is 7. Then 20 P operations an...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::36.28.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Synchronization",
+      "question_type": "numerical",
+      "snippet": "A counting semaphore was initialized to 7. Then 20 P (wait) operations and x V (signal) operations w...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.32.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "question_type": "numerical",
+      "snippet": "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation loo...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.32.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Page Replacement",
+      "question_type": "numerical",
+      "snippet": "A computer has 16 pages of virtual address space but the size of main memory is only four frames. In...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.32.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "question_type": "numerical",
+      "snippet": "What is the size of the physical address space in a paging system which has a page table containing ...",
+      "correct_answer": "C"
+    },
+    {
+      "question_id": "isro_w_cover::36.32.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Memory Management",
+      "question_type": "numerical",
+      "snippet": "Let the page fault service time be 10 ms in a computer with average memory access time being 20 ns. ...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::38.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "What is the maximum height of any AVL-tree with 7 nodes? Assume that the height of a tree with a sin...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::38.1.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "The number of rotations required to insert the sequence of elements 9, 6, 5, 8, 7, 10 into an empty ...",
+      "correct_answer": "D"
+    },
+    {
+      "question_id": "isro_w_cover::38.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "Let A(1:8, -5:5, -10:5) be a three-dimensional array. How many elements are there in the array A?",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::38.2.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "In an array of 2N elements that is both 2-ordered and 3-ordered, what is the maximum number of posit...",
+      "correct_answer": "A"
+    },
+    {
+      "question_id": "isro_w_cover::38.4.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5,...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::38.4.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "numerical",
+      "snippet": "How many distinct binary search trees can be created out of 4 distinct keys?",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "volume1::4.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "numerical",
+      "snippet": "The number of possible commutative binary operations that can be defined on a set of n elements (for...",
+      "correct_answer": "N/A (descriptive — answer: n^(n(n+1)/2))"
+    },
+    {
+      "question_id": "volume1::4.13.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "numerical",
+      "snippet": "Out of a group of 21 persons, 9 eat vegetables, 10 eat fish and 7 eat eggs. 5 persons eat all three....",
+      "correct_answer": "N/A (descriptive — answer: using inclusion-exclusion, those eating at least two = 7)"
+    },
+    {
+      "question_id": "volume1::4.13.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "numerical",
+      "snippet": "The number of subsets of {1, 2, …, n} with odd cardinality is ___________",
+      "correct_answer": "2^(n−1)"
+    },
+    {
+      "question_id": "volume2::2.17.20",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "An instruction pipeline has five stages, namely, instruction fetch (IF), instruction decode and regi...",
+      "correct_answer": "1.50:1.60"
+    },
+    {
+      "question_id": "volume2::2.17.25",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "The stage delays in a 4-stage pipeline are 800, 500, 400 and 300 picoseconds. The first stage (with ...",
+      "correct_answer": "33.0:34.0"
+    },
+    {
+      "question_id": "volume2::2.17.27",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "Instruction execution in a processor is divided into 5 stages, Instruction Fetch (IF), Instruction D...",
+      "correct_answer": "1.50:1.51"
+    },
+    {
+      "question_id": "volume2::2.17.29",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "Consider a non-pipelined processor operating at 2.5 GHz. It takes 5 clock cycles to complete an inst...",
+      "correct_answer": "2.15:2.18"
+    },
+    {
+      "question_id": "volume2::2.17.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "An instruction pipeline has five stages where each stage take 2 nanoseconds and all instruction use ...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::2.17.30",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "A five-stage pipeline has stage delays of 150, 120, 150, 160 and 140 nanoseconds. The registers that...",
+      "correct_answer": "17160:17160"
+    },
+    {
+      "question_id": "volume2::2.17.31",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "Consider a pipelined processor with 5 stages: Instruction Fetch (IF), Instruction Decode (ID), Execu...",
+      "correct_answer": "1.87:1.88"
+    },
+    {
+      "question_id": "volume2::2.17.32",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "A processor X1 operating at 2 GHz has a standard 5-stage RISC instruction pipeline having a base CPI...",
+      "correct_answer": "1.42:1.45"
+    },
+    {
+      "question_id": "volume2::2.17.37",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "numerical",
+      "snippet": "A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250 nanoseconds, respecti...",
+      "correct_answer": "260.20:261.20"
+    },
+    {
+      "question_id": "volume2::3.8.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Compiler Design",
+      "topic": "Grammar",
+      "question_type": "numerical",
+      "snippet": "A grammar G is in Chomsky-Normal Form (CNF) if all its productions are of the form A → BC or A → a, ...",
+      "correct_answer": "2n − 1"
+    },
+    {
+      "question_id": "volume2::4.11.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Networks",
+      "topic": "Computer Networks",
+      "question_type": "numerical",
+      "snippet": "Following 7-bit single error correcting Hamming coded message is received:  Bit positions: 7  6  5  ...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::4.31.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Networks",
+      "topic": "Computer Networks",
+      "question_type": "numerical",
+      "snippet": "For a host machine that uses the token bucket algorithm for congestion control, the token bucket has...",
+      "correct_answer": "1.10 to 1.19"
+    },
+    {
+      "question_id": "volume2::5.1.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "a. The following table refers to search times for a key in B-trees and B+-trees:  |              | B...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::5.1.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "A B+ tree of order d is a tree in which each internal node has between d and 2d key values. An inter...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::5.1.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "Consider a B-tree with degree m, that is, the number of children c of any internal node (except the ...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::5.1.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "(a) Suppose you are given an empty B+ tree where each node (leaf and internal) can store up to 5 key...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::5.1.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "numerical",
+      "snippet": "We wish to construct a B+ tree with fan-out (the number of pointers per node) equal to 3 for the fol...",
+      "correct_answer": "N/A"
+    },
+    {
+      "question_id": "volume2::6.11.11",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Digital Counter",
+      "question_type": "numerical",
+      "snippet": "We want to design a synchronous counter that counts the sequence 0-1-0-2-0-3 and then repeats. The m...",
+      "correct_answer": "3 to 4"
+    },
+    {
+      "question_id": "volume2::8.13.18",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Stack",
+      "question_type": "numerical",
+      "snippet": "Consider the following C program:  #include <stdio.h> #define EOF -1 void push (int); /* push the ar...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::29.5.1",
+      "origin_file": "questions_with_image.json",
+      "subject": "Computer Science",
+      "topic": "Software Engineering",
+      "question_type": "numerical",
+      "snippet": "A company needs to develop a strategy for software product development for which it has a choice of ...",
+      "correct_answer": "B"
+    },
+    {
+      "question_id": "isro_w_cover::36.21.11",
+      "origin_file": "questions_with_image.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "numerical",
+      "snippet": "Consider a set of 5 processes whose arrival time, CPU time needed and the priority are given below: ...",
+      "correct_answer": "C"
+    }
+  ],
+  "visual_type_without_image_info": [
+    {
+      "question_id": "isro_w_cover::1.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the recurrence equation: T(n) = 2T(n−1), if n > 0 T(n) = 1, otherwise Then T(n) is (in big ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.3.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the program: void function(int n) {     int i, j, count = 0;     for(i = n/2; i <= n; i++) ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The time taken by binary search algorithm to search a key in a sorted array of n elements is"
+    },
+    {
+      "question_id": "isro_w_cover::1.8.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The minimum number of arithmetic operations required to evaluate the expression f(z) = 8x³ + 3z + 12"
+    },
+    {
+      "question_id": "isro_w_cover::1.10.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number..."
+    },
+    {
+      "question_id": "isro_w_cover::1.10.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The characters of the string K R P C S N Y T J M are inserted into a hash table of size 10 using a h..."
+    },
+    {
+      "question_id": "isro_w_cover::1.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Huffman tree is constructed for the following data: {A, B, C, D, E} with frequency {0.17, 0.11, 0.24..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Study the following program: //precondition: x>=0 public void demo(int x) {     System.out.print(x %..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "What is the value of F(4) using the following procedure: function F(K : integer) integer; begin     ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the following pseudocode:     x := 1;     i := 1;     while ( x <= 500)     begin         x..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "An array A consists of n integers in locations A[0], A[1], ..., A[n−1]. It is required to shift the ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.16.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider product of three matrices M₁, M₂ and M₃ having w rows and x columns, x rows and y columns, ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.17.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The average case and worst case complexities for Merge sort algorithm are"
+    },
+    {
+      "question_id": "isro_w_cover::1.17.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Given two sorted list of size m and n respectively. The number of comparisons needed in the worst ca..."
+    },
+    {
+      "question_id": "isro_w_cover::1.18.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The number of spanning trees for a complete graph with seven vertices is"
+    },
+    {
+      "question_id": "isro_w_cover::1.20.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Quick-sort is run on 2 inputs shown below to sort in ascending order: A. 1, 2, 3, ..., n B. n, n−1, ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.21.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The recurrence relation that arises in relation with the complexity of binary search is:"
+    },
+    {
+      "question_id": "isro_w_cover::1.21.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the following recurrence: T(n) = 2T(√n) + 1, T(1) = 1 Which one of the following is true?"
+    },
+    {
+      "question_id": "isro_w_cover::1.21.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Let T(n) be defined by T(1) = 10 and T(n+1) = 2n + T(n) for all integers n ≥ 1. Which of the followi..."
+    },
+    {
+      "question_id": "isro_w_cover::1.21.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The running time of an algorithm is given by: T(n) = T(n−1) + T(n−2) − T(n−3), if n > 3 T(n) = n, ot..."
+    },
+    {
+      "question_id": "isro_w_cover::1.22.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the function: int fun(x: integer) {     If x>100 then fun=x-10;     else         fun=fun(fu..."
+    },
+    {
+      "question_id": "isro_w_cover::1.23.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The time complexity of computing the transitive closure of a binary relation on a set of n elements ..."
+    },
+    {
+      "question_id": "isro_w_cover::3.1.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "8085 Microprocessor",
+      "question_type": "image_based",
+      "snippet": "The contents of the flag register after execution of the following program by 8085 microprocessor wi..."
+    },
+    {
+      "question_id": "isro_w_cover::3.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Cache Memory",
+      "question_type": "image_based",
+      "snippet": "A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a 2-d array of size 512..."
+    },
+    {
+      "question_id": "isro_w_cover::3.19.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "image_based",
+      "snippet": "A non-pipelined CPU has 12 general purpose registers (R0, R1, R2, ..., R12). Following operations ar..."
+    },
+    {
+      "question_id": "isro_w_cover::3.19.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "image_based",
+      "snippet": "Consider a 5-segment pipeline with a clock cycle time of 20 ns in each sub operation. Find out the a..."
+    },
+    {
+      "question_id": "volume2::5.10.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relat..."
+    },
+    {
+      "question_id": "volume2::5.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the following implications relating to functional and multivalued dependencies given below,..."
+    },
+    {
+      "question_id": "volume2::5.12.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Let r be a relation instance with schema R = (A, B, C, D). We define r1 = Π_{A,B,C}(R) and r2 = Π_{A..."
+    },
+    {
+      "question_id": "volume2::5.12.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The following functional dependencies hold for relations R(A, B, C) and S(B, D, E): B → A A → C  The..."
+    },
+    {
+      "question_id": "volume2::5.15.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Let r and s be two relations over the relation schemes R and S respectively, and let A be an attribu..."
+    },
+    {
+      "question_id": "volume2::5.15.22",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the relations R(A, B) and S(B, C, D), where B is a primary key in S and a foreign key in R ..."
+    },
+    {
+      "question_id": "volume2::5.15.27",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The relation schema Person(pid, city) describes the city of residence for every person uniquely iden..."
+    },
+    {
+      "question_id": "volume2::5.16.14",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider a selection of the form σ_{A ≥ a ∧ A ≤ b}(R), where R is a relation with n tuples. Assume t..."
+    },
+    {
+      "question_id": "volume2::5.16.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The relational algebra expression equivalent to the following tuple calculus expression:  {t | ∃u ∈ ..."
+    },
+    {
+      "question_id": "volume2::5.16.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Which of the following relational calculus expressions is NOT safe?"
+    }
+  ],
+  "image_based_missing_image_reference": [
+    {
+      "question_id": "isro_w_cover::1.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the recurrence equation: T(n) = 2T(n−1), if n > 0 T(n) = 1, otherwise Then T(n) is (in big ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.3.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the program: void function(int n) {     int i, j, count = 0;     for(i = n/2; i <= n; i++) ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The time taken by binary search algorithm to search a key in a sorted array of n elements is"
+    },
+    {
+      "question_id": "isro_w_cover::1.8.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The minimum number of arithmetic operations required to evaluate the expression f(z) = 8x³ + 3z + 12"
+    },
+    {
+      "question_id": "isro_w_cover::1.10.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number..."
+    },
+    {
+      "question_id": "isro_w_cover::1.10.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The characters of the string K R P C S N Y T J M are inserted into a hash table of size 10 using a h..."
+    },
+    {
+      "question_id": "isro_w_cover::1.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Huffman tree is constructed for the following data: {A, B, C, D, E} with frequency {0.17, 0.11, 0.24..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Study the following program: //precondition: x>=0 public void demo(int x) {     System.out.print(x %..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "What is the value of F(4) using the following procedure: function F(K : integer) integer; begin     ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the following pseudocode:     x := 1;     i := 1;     while ( x <= 500)     begin         x..."
+    },
+    {
+      "question_id": "isro_w_cover::1.12.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "An array A consists of n integers in locations A[0], A[1], ..., A[n−1]. It is required to shift the ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.16.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider product of three matrices M₁, M₂ and M₃ having w rows and x columns, x rows and y columns, ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.17.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The average case and worst case complexities for Merge sort algorithm are"
+    },
+    {
+      "question_id": "isro_w_cover::1.17.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Given two sorted list of size m and n respectively. The number of comparisons needed in the worst ca..."
+    },
+    {
+      "question_id": "isro_w_cover::1.18.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The number of spanning trees for a complete graph with seven vertices is"
+    },
+    {
+      "question_id": "isro_w_cover::1.20.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Quick-sort is run on 2 inputs shown below to sort in ascending order: A. 1, 2, 3, ..., n B. n, n−1, ..."
+    },
+    {
+      "question_id": "isro_w_cover::1.21.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The recurrence relation that arises in relation with the complexity of binary search is:"
+    },
+    {
+      "question_id": "isro_w_cover::1.21.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the following recurrence: T(n) = 2T(√n) + 1, T(1) = 1 Which one of the following is true?"
+    },
+    {
+      "question_id": "isro_w_cover::1.21.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Let T(n) be defined by T(1) = 10 and T(n+1) = 2n + T(n) for all integers n ≥ 1. Which of the followi..."
+    },
+    {
+      "question_id": "isro_w_cover::1.21.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The running time of an algorithm is given by: T(n) = T(n−1) + T(n−2) − T(n−3), if n > 3 T(n) = n, ot..."
+    },
+    {
+      "question_id": "isro_w_cover::1.22.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "Consider the function: int fun(x: integer) {     If x>100 then fun=x-10;     else         fun=fun(fu..."
+    },
+    {
+      "question_id": "isro_w_cover::1.23.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Algorithms",
+      "question_type": "image_based",
+      "snippet": "The time complexity of computing the transitive closure of a binary relation on a set of n elements ..."
+    },
+    {
+      "question_id": "isro_w_cover::3.1.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "8085 Microprocessor",
+      "question_type": "image_based",
+      "snippet": "The contents of the flag register after execution of the following program by 8085 microprocessor wi..."
+    },
+    {
+      "question_id": "isro_w_cover::3.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Cache Memory",
+      "question_type": "image_based",
+      "snippet": "A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a 2-d array of size 512..."
+    },
+    {
+      "question_id": "isro_w_cover::3.19.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "image_based",
+      "snippet": "A non-pipelined CPU has 12 general purpose registers (R0, R1, R2, ..., R12). Following operations ar..."
+    },
+    {
+      "question_id": "isro_w_cover::3.19.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "image_based",
+      "snippet": "Consider a 5-segment pipeline with a clock cycle time of 20 ns in each sub operation. Find out the a..."
+    },
+    {
+      "question_id": "volume2::5.10.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relat..."
+    },
+    {
+      "question_id": "volume2::5.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the following implications relating to functional and multivalued dependencies given below,..."
+    },
+    {
+      "question_id": "volume2::5.12.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Let r be a relation instance with schema R = (A, B, C, D). We define r1 = Π_{A,B,C}(R) and r2 = Π_{A..."
+    },
+    {
+      "question_id": "volume2::5.12.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The following functional dependencies hold for relations R(A, B, C) and S(B, D, E): B → A A → C  The..."
+    },
+    {
+      "question_id": "volume2::5.15.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Let r and s be two relations over the relation schemes R and S respectively, and let A be an attribu..."
+    },
+    {
+      "question_id": "volume2::5.15.22",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider the relations R(A, B) and S(B, C, D), where B is a primary key in S and a foreign key in R ..."
+    },
+    {
+      "question_id": "volume2::5.15.27",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The relation schema Person(pid, city) describes the city of residence for every person uniquely iden..."
+    },
+    {
+      "question_id": "volume2::5.16.14",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Consider a selection of the form σ_{A ≥ a ∧ A ≤ b}(R), where R is a relation with n tuples. Assume t..."
+    },
+    {
+      "question_id": "volume2::5.16.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "The relational algebra expression equivalent to the following tuple calculus expression:  {t | ∃u ∈ ..."
+    },
+    {
+      "question_id": "volume2::5.16.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "image_based",
+      "snippet": "Which of the following relational calculus expressions is NOT safe?"
+    }
+  ],
+  "missing_correct_answer": [
+    {
+      "question_id": "isro_w_cover::8.0.4",
+      "origin_file": "questions_with_image.json",
+      "subject": "Digital Logic",
+      "topic": "Combinational Circuits",
+      "question_type": "image_based",
+      "snippet": "The logic circuit given below converts a binary code Y1Y2Y3 into (circuit shows XOR gates cascaded b..."
+    },
+    {
+      "question_id": "volume2::1.14.1",
+      "origin_file": "questions_with_image.json",
+      "subject": "Algorithms",
+      "topic": "Graph Search",
+      "question_type": "fill_blank",
+      "snippet": "In the graph shown above, the depth-first spanning tree edges are marked with a 'T'. Identify the fo..."
+    },
+    {
+      "question_id": "volume2::2.1.2",
+      "origin_file": "questions_with_image.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Addressing Modes",
+      "question_type": "fill_blank",
+      "snippet": "In the program scheme given below indicate the instructions containing any operand needing relocatio..."
+    }
+  ],
+  "option_dependent_type_with_no_options": [
+    {
+      "question_id": "da::1.42.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "algorithms",
+      "question_type": "fill_blank",
+      "snippet": "Complexity of Kruskal's algorithm for finding the minimum spanning tree of an undirected graph conta..."
+    },
+    {
+      "question_id": "da::1.61.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structures",
+      "topic": "Algorithms",
+      "question_type": "fill_blank",
+      "snippet": "Quicksort is ________ efficient than heapsort in the worst case."
+    },
+    {
+      "question_id": "da::3.4.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "For a B⁺ tree of order d with n leaf nodes, the number of nodes accessed during a search is O(_____)..."
+    },
+    {
+      "question_id": "da::3.19.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "mcq",
+      "snippet": "State True or False with reason: Logical data independence is easier to achieve than physical data i..."
+    },
+    {
+      "question_id": "da::3.20.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: A relation r with schema (X, Y) satisfies th..."
+    },
+    {
+      "question_id": "da::3.20.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "mcq",
+      "snippet": "State True or False with reason: There is always a decomposition into Boyce-Codd normal form (BCNF) ..."
+    },
+    {
+      "question_id": "da::5.2.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "fill_blank",
+      "snippet": "The radius of convergence of the power series  ∑_{m=0}^{∞} ((3m)! / (m!)³) x^(3m)  is: ____________"
+    },
+    {
+      "question_id": "da::5.6.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "fill_blank",
+      "snippet": "The value of the double integral ∫₀¹ ∫₀^(1/x) x/(1 + y²) dy dx is __________."
+    },
+    {
+      "question_id": "da::9.7.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question_type": "fill_blank",
+      "snippet": "The probability of an event B is P₁. The probability that events A and B occur together is P₂ while ..."
+    },
+    {
+      "question_id": "da::13.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Data Structures",
+      "topic": "Data Structures",
+      "question_type": "fill_blank",
+      "snippet": "The following Pascal program segments finds the largest number in a two-dimensional integer array A[..."
+    },
+    {
+      "question_id": "da::13.14.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "fill_blank",
+      "snippet": "Compute the postfix equivalent of the following infix arithmetic expression a + b * (c − d) / (e + f..."
+    },
+    {
+      "question_id": "da::13.14.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Programming and Data Structure",
+      "topic": "Data Structures",
+      "question_type": "fill_blank",
+      "snippet": "Compute the postfix equivalent of the following infix expression: (a − b / c) * (d + e * f)"
+    },
+    {
+      "question_id": "em::2.12.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "fill_blank",
+      "snippet": "The radius of convergence of the power series ∑_{m=0}^∞ (3m)!/(m!)³ · x^{3m} is: _____________"
+    },
+    {
+      "question_id": "em::2.37.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Calculus",
+      "question_type": "fill_blank",
+      "snippet": "This is a descriptive question with two parts: (a) Find the points of local maxima and minima, if an..."
+    },
+    {
+      "question_id": "em::4.5.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question_type": "fill_blank",
+      "snippet": "The probability of an event B is P₁. The probability that events A and B occur together is P₂, while..."
+    },
+    {
+      "question_id": "em::4.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "question_type": "fill_blank",
+      "snippet": "P_n(t) is the probability of n events occurring during a time interval t. How will you express P₀(t ..."
+    },
+    {
+      "question_id": "volume1::1.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Combinatorics",
+      "question_type": "fill_blank",
+      "snippet": "In how many ways can a given positive integer n ≥ 2 be expressed as the sum of 2 positive integers (..."
+    },
+    {
+      "question_id": "volume1::1.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Combinatorics",
+      "question_type": "fill_blank",
+      "snippet": "How many substrings (of all lengths inclusive) can be formed from a character string of length n? As..."
+    },
+    {
+      "question_id": "volume1::1.2.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Combinatorics",
+      "question_type": "fill_blank",
+      "snippet": "Find the number of binary strings w of length 2n with an equal number of 1's and 0's and the propert..."
+    },
+    {
+      "question_id": "volume1::1.2.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Combinatorics",
+      "question_type": "fill_blank",
+      "snippet": "A multiset is an unordered collection of elements where elements may repeat any number of times. The..."
+    },
+    {
+      "question_id": "volume1::1.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Generating Functions",
+      "question_type": "fill_blank",
+      "snippet": "What is the generating function G(z) for the sequence of Fibonacci numbers?"
+    },
+    {
+      "question_id": "volume1::1.7.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "The Fibonacci sequence {f₁, f₂, f₃, …, fₙ} is defined by the following recurrence:  f_{n+2} = f_{n+1..."
+    },
+    {
+      "question_id": "volume1::2.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "Show that the number of odd-degree vertices in a finite graph is even."
+    },
+    {
+      "question_id": "volume1::2.2.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "Show that all vertices in an undirected finite graph cannot have distinct degrees, if the graph has ..."
+    },
+    {
+      "question_id": "volume1::2.2.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "Prove that in a finite graph, the number of vertices of odd degree is always even."
+    },
+    {
+      "question_id": "volume1::2.4.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "A graph which has the same number of edges as its complement must have number of vertices congruent ..."
+    },
+    {
+      "question_id": "volume1::2.4.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "The maximum number of possible edges in an undirected graph with n vertices and k components is ____..."
+    },
+    {
+      "question_id": "volume1::2.4.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "How many edges can there be in a forest with p components having n vertices in all?"
+    },
+    {
+      "question_id": "volume1::2.4.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "The number of edges in a regular graph of degree d and n vertices is ____________"
+    },
+    {
+      "question_id": "volume1::2.4.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "An independent set in a graph is a subset of vertices such that no two vertices in the subset are co..."
+    },
+    {
+      "question_id": "volume1::2.7.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE:  There is a linear-time algorithm for testin..."
+    },
+    {
+      "question_id": "volume1::2.7.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "Maximum number of edges in a planar graph with n vertices is _____"
+    },
+    {
+      "question_id": "volume1::3.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Symbolize the expression \"Every mother loves her children\" in predicate logic."
+    },
+    {
+      "question_id": "volume1::3.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Show that the conclusion (r → q) follows from the premises: p, (p → q) ∨ (p ∧ (r → q))"
+    },
+    {
+      "question_id": "volume1::3.3.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Let p and q be propositions. Using only the Truth Table, decide whether  p ⟺ q does not imply p → ¬q..."
+    },
+    {
+      "question_id": "volume1::3.3.11",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Obtain the principal (canonical) conjunctive normal form of the propositional formula  (p ∧ q) ∨ (¬q..."
+    },
+    {
+      "question_id": "volume1::3.3.16",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Show that the formula [(∼p ∨ q) ⇒ (q ⇒ p)] is not a tautology.  Let A be a tautology and B any other..."
+    },
+    {
+      "question_id": "volume1::3.3.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Define the validity of a well-formed formula (wff)?"
+    },
+    {
+      "question_id": "volume1::3.3.20",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Determine whether each of the following is a tautology, a contradiction, or neither (\"∨\" is disjunct..."
+    },
+    {
+      "question_id": "volume1::3.3.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Use Modus ponens (A, A → B |= B) or resolution to show that the following set is inconsistent:  1. Q..."
+    },
+    {
+      "question_id": "volume1::3.3.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Mathematical Logic",
+      "question_type": "fill_blank",
+      "snippet": "Show that proposition C is a logical consequence of the formula A ∧ (A → (B ∨ C)) ∧ (B → ¬A) using t..."
+    },
+    {
+      "question_id": "volume1::4.1.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "On the set N of non-negative integers, the binary operation ______ is associative and non-commutativ..."
+    },
+    {
+      "question_id": "volume1::4.10.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "If the longest chain in a partial order is of length n, then the partial order can be written as a _..."
+    },
+    {
+      "question_id": "volume1::4.10.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Suppose A = {a, b, c, d} and Π₁ is the following partition of A: Π₁ = {{a, b, c}, {d}}  a. List the ..."
+    },
+    {
+      "question_id": "volume1::4.12.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE:  The union of two equivalence relations is a..."
+    },
+    {
+      "question_id": "volume1::4.12.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let R be a reflexive and transitive relation on a set A. Define a new relation E on A as  E = {(a, b..."
+    },
+    {
+      "question_id": "volume1::4.12.14",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Prove by induction that the expression for the number of diagonals in a polygon of n sides is n(n−3)..."
+    },
+    {
+      "question_id": "volume1::4.12.19",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "a. Mr. X claims the following: If a relation R is both symmetric and transitive, then R is reflexive..."
+    },
+    {
+      "question_id": "volume1::4.12.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "How many binary relations are there on a set A with n elements?"
+    },
+    {
+      "question_id": "volume1::4.12.23",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let A be a set of n (> 0) elements. Let Nᵣ be the number of binary relations on A and let Nf be the ..."
+    },
+    {
+      "question_id": "volume1::4.12.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "How many true inclusion relations are there of the form A ⊆ B, where A and B are subsets of a set S ..."
+    },
+    {
+      "question_id": "volume1::4.12.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "The transitive closure of the relation {(1,2),(2,3),(3,4),(5,4)} on the set {1,2,3,4,5} is _________..."
+    },
+    {
+      "question_id": "volume1::4.12.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let S be the set of all integers and let n > 1 be a fixed integer. Define aRb for a, b ∈ S iff a − b..."
+    },
+    {
+      "question_id": "volume1::4.12.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Amongst the properties {reflexivity, symmetry, anti-symmetry, transitivity} the relation R = {(x, y)..."
+    },
+    {
+      "question_id": "volume1::4.12.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let F be the collection of all functions f : {1,2,3} → {1,2,3}. If f and g ∈ F, define an equivalenc..."
+    },
+    {
+      "question_id": "volume1::4.13.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let S be a set of n elements {1, 2, …, n} and G a graph with 2ⁿ vertices, each vertex corresponding ..."
+    },
+    {
+      "question_id": "volume1::4.13.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "a. Prove that powerset(A ∩ B) = powerset(A) ∩ powerset(B).  b. Let sum(n) = 0 + 1 + 2 + … + n for al..."
+    },
+    {
+      "question_id": "volume1::4.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Every subset of a countable set is countable. State whether the above statement is true or false wit..."
+    },
+    {
+      "question_id": "volume1::4.3.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "How many one-to-one functions are there from a set A with n elements onto itself?"
+    },
+    {
+      "question_id": "volume1::4.3.10",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Consider the function h : N × N → N so that h(a, b) = (2a + 1)2ᵇ − 1, where N = {0, 1, 2, 3, …} is t..."
+    },
+    {
+      "question_id": "volume1::4.3.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "If the set S has a finite number of elements, prove that if f maps S onto S, then f is one-to-one."
+    },
+    {
+      "question_id": "volume1::4.3.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Find the number of single valued functions from set A to another set B, given that the cardinalities..."
+    },
+    {
+      "question_id": "volume1::4.3.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let F be the set of one-to-one functions from the set {1, 2, …, n} to the set {1, 2, …, m} where m ≥..."
+    },
+    {
+      "question_id": "volume1::4.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Show that if G is a group such that (a ∗ b)² = a² ∗ b² for all a, b belonging to G, then G is an abe..."
+    },
+    {
+      "question_id": "volume1::4.4.11",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let (A, ∗) be a semigroup. Furthermore, for every a and b in A, if a ≠ b, then a ∗ b ≠ b ∗ a.  a. Sh..."
+    },
+    {
+      "question_id": "volume1::4.4.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let G be a finite group and H be a subgroup of G. For a ∈ G, define aH = {ah | h ∈ H}.  a. Show that..."
+    },
+    {
+      "question_id": "volume1::4.4.13",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let S = {0, 1, 2, 3, 4, 5, 6, 7} and ⊗ denote multiplication modulo 8, that is, x ⊗ y = (xy) mod 8. ..."
+    },
+    {
+      "question_id": "volume1::4.4.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "If G is a group of even order, then show that there exists an element a ≠ e, the identity in G, such..."
+    },
+    {
+      "question_id": "volume1::4.4.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let ({p,q}, ∗) be a semigroup where p ∗ p = q. Show that: a. p ∗ q = q ∗ p b. q ∗ q = q"
+    },
+    {
+      "question_id": "volume1::4.4.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let G₁ and G₂ be subgroups of a group G.  A. Show that G₁ ∩ G₂ is also a subgroup of G. B. Is G₁ ∪ G..."
+    },
+    {
+      "question_id": "volume1::4.6.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Show that the elements of the lattice (N, ≤), where N is the set of positive integers and a ≤ b if a..."
+    },
+    {
+      "question_id": "volume1::4.6.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "S = {(1,2),(2,1)} is a binary relation on set A = {1,2,3}. Is it irreflexive? Add the minimum number..."
+    },
+    {
+      "question_id": "volume1::4.7.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Prove using mathematical induction for n ≥ 5: 2ⁿ > n²"
+    },
+    {
+      "question_id": "volume1::4.7.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Consider the following sequence:  s₁ = s₂ = 1 and sᵢ = 1 + min(sᵢ₋₁, sᵢ₋₂) for i > 2.  Prove by indu..."
+    },
+    {
+      "question_id": "volume1::4.8.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Show that the product of the least common multiple and the greatest common divisor of two positive i..."
+    },
+    {
+      "question_id": "volume1::5.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Engineering Mathematics",
+      "topic": "Calculus",
+      "question_type": "fill_blank",
+      "snippet": "Let f be a function defined by  f(x) = { x²          for x ≤ 1         { ax² + bx + c  for 1 < x ≤ 2..."
+    },
+    {
+      "question_id": "volume1::6.3.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Mathematics",
+      "topic": "Linear Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Obtain the eigen values of the matrix  A =[[1, 2, 34, 49], [0, 2, 43, 94], [0, 0, −2, 104], [0, 0, 0..."
+    },
+    {
+      "question_id": "volume2::1.18.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Identify Function",
+      "question_type": "fill_blank",
+      "snippet": "What is the output produced by the following program, when the input is \"HTGATE\"?  Function what(s:s..."
+    },
+    {
+      "question_id": "volume2::1.18.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Identify Function",
+      "question_type": "fill_blank",
+      "snippet": "What function of x, n is computed by this program?  Function what(x, n:integer): integer; Var value ..."
+    },
+    {
+      "question_id": "volume2::1.24.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Graph Algorithms",
+      "question_type": "fill_blank",
+      "snippet": "Complexity of Kruskal's algorithm for finding the minimum spanning tree of an undirected graph conta..."
+    },
+    {
+      "question_id": "volume2::1.26.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "question_type": "fill_blank",
+      "snippet": "Assume that the last element of the set is used as partition element in Quicksort. If n distinct ele..."
+    },
+    {
+      "question_id": "volume2::1.27.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Solve the recurrence equations: • T(n) = T(n−1) + n • T(1) = 1"
+    },
+    {
+      "question_id": "volume2::1.27.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Solve the following recurrence relation:  xₙ = 2xₙ₋₁ − 1, n > 1 x₁ = 2"
+    },
+    {
+      "question_id": "volume2::1.27.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Solve the recurrence equations: • T(n) = T(n/2) + 1 • T(1) = 1"
+    },
+    {
+      "question_id": "volume2::1.27.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Find a solution to the following recurrence equation: • T(n) = √n + T(n/2) • T(1) = 1"
+    },
+    {
+      "question_id": "volume2::1.27.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Express T(n) in terms of the harmonic number Hₙ = Σᵢ₌₁ⁿ (1/i), n ≥ 1, where T(n) satisfies the recur..."
+    },
+    {
+      "question_id": "volume2::1.27.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Consider the function F(n) for which the pseudocode is given below:  Function F(n) begin   F1 ← 1   ..."
+    },
+    {
+      "question_id": "volume2::1.27.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Recurrence Relation",
+      "question_type": "fill_blank",
+      "snippet": "Consider the recursive algorithm given below:  procedure bubblesort(n); var i,j: index; temp: item; ..."
+    },
+    {
+      "question_id": "volume2::1.29.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Searching",
+      "question_type": "fill_blank",
+      "snippet": "Consider the following program that attempts to locate an element x in an array a[] using binary sea..."
+    },
+    {
+      "question_id": "volume2::1.30.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Shortest Path",
+      "question_type": "fill_blank",
+      "snippet": "Fill in the blanks in the following template of an algorithm to compute all pairs shortest path leng..."
+    },
+    {
+      "question_id": "volume2::1.31.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Sorting",
+      "question_type": "fill_blank",
+      "snippet": "Consider the following sequence of numbers: 92, 37, 52, 12, 11, 25  Use Bubble sort to arrange the s..."
+    },
+    {
+      "question_id": "volume2::1.34.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Time Complexity",
+      "question_type": "fill_blank",
+      "snippet": "Given below is the sketch of a program that represents the path in a two-person game tree (Minimax a..."
+    },
+    {
+      "question_id": "volume2::1.34.6",
+      "origin_file": "questions_clean.json",
+      "subject": "Algorithms",
+      "topic": "Time Complexity",
+      "question_type": "fill_blank",
+      "snippet": "Consider the following algorithms. Assume procedure A and procedure B take O(1) and O(1/n) unit of t..."
+    },
+    {
+      "question_id": "volume2::10.10.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Theory of Computation",
+      "topic": "Theory of Computation",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: A minimal DFA that is equivalent to an NDFA ..."
+    },
+    {
+      "question_id": "volume2::10.19.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Theory of Computation",
+      "topic": "Regular Language",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: Regularity is preserved under the operation ..."
+    },
+    {
+      "question_id": "volume2::10.19.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Theory of Computation",
+      "topic": "Regular Language",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: All subsets of regular sets are regular."
+    },
+    {
+      "question_id": "volume2::2.10.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Instruction Execution",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE with reason: The flags are affected when cond..."
+    },
+    {
+      "question_id": "volume2::2.11.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Instruction Format",
+      "question_type": "fill_blank",
+      "snippet": "State True or False with one line explanation: Expanding opcode instruction formats are commonly emp..."
+    },
+    {
+      "question_id": "volume2::2.15.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Memory Interfacing",
+      "question_type": "fill_blank",
+      "snippet": "In interleaved memory organization, consecutive words are stored in consecutive memory modules in __..."
+    },
+    {
+      "question_id": "volume2::2.17.35",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Pipelining",
+      "question_type": "multi_select",
+      "snippet": "An instruction format has the following structure: Instruction Number: Opcode destination reg, sourc..."
+    },
+    {
+      "question_id": "volume2::2.9.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "IO Handling",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: In a microprocessor-based system, if a bus (..."
+    },
+    {
+      "question_id": "volume2::2.9.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "IO Handling",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE: Data transfer between a microprocessor and a..."
+    },
+    {
+      "question_id": "volume2::2.9.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "IO Handling",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE with reason: The data transfer between memory..."
+    },
+    {
+      "question_id": "volume2::3.1.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Compiler Design",
+      "topic": "Assembler",
+      "question_type": "fill_blank",
+      "snippet": "The purpose of instruction location counter in an assembler is _______"
+    },
+    {
+      "question_id": "volume2::3.14.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Compiler Design",
+      "topic": "Macros",
+      "question_type": "fill_blank",
+      "snippet": "Macro expansion is done in pass one instead of pass two in a two pass macro assembler because ______..."
+    },
+    {
+      "question_id": "volume2::3.17.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Compiler Design",
+      "topic": "Parsing",
+      "question_type": "fill_blank",
+      "snippet": "Merging states with a common core may produce __________ conflicts and does not produce __________ c..."
+    },
+    {
+      "question_id": "volume2::4.11.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Networks",
+      "topic": "Computer Networks",
+      "question_type": "fill_blank",
+      "snippet": "Consider a 3-bit error detection and 1-bit error correction Hamming code for 4-bit data. The extra p..."
+    },
+    {
+      "question_id": "volume2::4.18.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Computer Networks",
+      "topic": "Computer Networks",
+      "question_type": "fill_blank",
+      "snippet": "A simple and reliable data transfer can be accomplished by using the 'handshake protocol'. It accomp..."
+    },
+    {
+      "question_id": "volume2::5.1.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "For a B+ tree of order d with n leaf nodes, the number of nodes accessed during a search is O(_)."
+    },
+    {
+      "question_id": "volume2::5.2.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "An instance of a relational scheme R(A, B, C) has distinct values for attribute A. Can you conclude ..."
+    },
+    {
+      "question_id": "volume2::5.4.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "State True or False with reason:  Logical data independence is easier to achieve than physical data ..."
+    },
+    {
+      "question_id": "volume2::5.5.1",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "State whether the following statement is TRUE or FALSE:  A relation r with schema (X, Y) satisfies t..."
+    },
+    {
+      "question_id": "volume2::5.5.12",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "Consider the following database relations containing the attributes: • Book_id • Subject_Category_of..."
+    },
+    {
+      "question_id": "volume2::5.5.18",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "For relation R = (L, M, N, O, P), the following dependencies hold: M → O, NO → P, P → L and L → MN. ..."
+    },
+    {
+      "question_id": "volume2::5.5.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "What are the three axioms of functional dependency for the relational databases given by Armstrong?"
+    },
+    {
+      "question_id": "volume2::5.5.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "Using Armstrong's axioms of functional dependency, derive the following rule:  {x → y, x → z} ⊨ x → ..."
+    },
+    {
+      "question_id": "volume2::5.5.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "Using Armstrong's axioms of functional dependency, derive the following rule:  {x → y, wy → z} ⊨ xw ..."
+    },
+    {
+      "question_id": "volume2::5.5.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "Using Armstrong's axioms of functional dependency, derive the following rule:  {x → y, z ⊂ y} ⊨ x → ..."
+    },
+    {
+      "question_id": "volume2::5.5.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "State True or False with reason:  There is always a decomposition into Boyce-Codd normal form (BCNF)..."
+    },
+    {
+      "question_id": "volume2::5.5.9",
+      "origin_file": "questions_clean.json",
+      "subject": "Databases",
+      "topic": "Databases",
+      "question_type": "fill_blank",
+      "snippet": "Consider the relation scheme R(A, B, C) with the following functional dependencies: • A, B → C • C →..."
+    },
+    {
+      "question_id": "volume2::6.11.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Digital Counter",
+      "question_type": "fill_blank",
+      "snippet": "The number of flip-flops required to construct a binary modulo N counter is __________"
+    },
+    {
+      "question_id": "volume2::6.15.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Floating Point Representation",
+      "question_type": "fill_blank",
+      "snippet": "A 32-bit floating-point number is represented by a 7-bit signed exponent, and a 24-bit fractional ma..."
+    },
+    {
+      "question_id": "volume2::6.15.4",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Floating Point Representation",
+      "question_type": "fill_blank",
+      "snippet": "A 32-bit floating-point number is represented by a 7-bit signed exponent, and a 24-bit fractional ma..."
+    },
+    {
+      "question_id": "volume2::6.18.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "K Map",
+      "question_type": "fill_blank",
+      "snippet": "The Boolean function in sum of products form, where the K-map is given below, is _______  | B\\C | 0 ..."
+    },
+    {
+      "question_id": "volume2::6.24.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Number Representation",
+      "question_type": "fill_blank",
+      "snippet": "The condition for overflow in the addition of two 2's complement numbers in terms of the carry gener..."
+    },
+    {
+      "question_id": "volume2::6.24.7",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Number Representation",
+      "question_type": "fill_blank",
+      "snippet": "Consider n-bit (including sign bit) 2's complement representation of integer numbers. The range of i..."
+    },
+    {
+      "question_id": "volume2::6.24.8",
+      "origin_file": "questions_clean.json",
+      "subject": "Digital Logic",
+      "topic": "Number Representation",
+      "question_type": "fill_blank",
+      "snippet": "The following is an incomplete Pascal function to convert a given decimal integer (in the range -8 t..."
+    },
+    {
+      "question_id": "volume2::7.17.2",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Precedence Graph",
+      "question_type": "fill_blank",
+      "snippet": "A given set of processes can be implemented by using only parbegin/parend statement, if the preceden..."
+    },
+    {
+      "question_id": "volume2::7.19.3",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Process Scheduling",
+      "question_type": "fill_blank",
+      "snippet": "The highest-response ratio next scheduling policy favours ___________ jobs, but it also limits the w..."
+    },
+    {
+      "question_id": "volume2::7.3.5",
+      "origin_file": "questions_clean.json",
+      "subject": "Operating System",
+      "topic": "Disk",
+      "question_type": "fill_blank",
+      "snippet": "A program P reads and processes 1000 consecutive records from a sequential file F stored on device D..."
+    },
+    {
+      "question_id": "volume1::2.4.2",
+      "origin_file": "questions_with_image.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Graph Theory",
+      "question_type": "fill_blank",
+      "snippet": "Write the adjacency matrix representation of the graph given in the figure below.  (Directed graph w..."
+    },
+    {
+      "question_id": "volume1::4.12.15",
+      "origin_file": "questions_with_image.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "Let R be a binary relation on A = {a, b, c, d, e, f, g, h} represented by the following two componen..."
+    },
+    {
+      "question_id": "volume1::4.6.1",
+      "origin_file": "questions_with_image.json",
+      "subject": "Discrete Mathematics",
+      "topic": "Set Theory & Algebra",
+      "question_type": "fill_blank",
+      "snippet": "The complement(s) of the element 'a' in the lattice shown in the figure is (are) ____  (Hasse diagra..."
+    },
+    {
+      "question_id": "volume2::1.14.1",
+      "origin_file": "questions_with_image.json",
+      "subject": "Algorithms",
+      "topic": "Graph Search",
+      "question_type": "fill_blank",
+      "snippet": "In the graph shown above, the depth-first spanning tree edges are marked with a 'T'. Identify the fo..."
+    },
+    {
+      "question_id": "volume2::2.1.2",
+      "origin_file": "questions_with_image.json",
+      "subject": "Computer Organization and Architecture",
+      "topic": "Addressing Modes",
+      "question_type": "fill_blank",
+      "snippet": "In the program scheme given below indicate the instructions containing any operand needing relocatio..."
+    }
+  ]
+}
