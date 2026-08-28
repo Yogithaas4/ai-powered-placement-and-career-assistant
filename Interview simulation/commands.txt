@@ -1,0 +1,36 @@
+GPU Machine — run these first (2 terminals)
+
+Terminal 1 — Ollama:
+taskkill /F /IM "ollama app.exe"
+set OLLAMA_HOST=0.0.0.0:11434
+ollama serve
+
+Terminal 2 — verify Ollama is bound correctly:
+netstat -an | findstr 11434
+# Should show 0.0.0.0:11434 LISTENING
+
+Your Laptop — run these after GPU is ready (2 terminals)
+
+Terminal 1 — Whisper server:
+cd "D:\Projects\Major project"
+venv\Scripts\activate
+cd "D:\Projects\Major project\Mock Interview\FullPipeline"
+uvicorn whisper_server:app --host 127.0.0.1 --port 8000
+or
+python -m uvicorn whisper_server:app --host 127.0.0.1 --port 8000
+Wait until you see:
+INFO: Uvicorn running on http://127.0.0.1:8000
+
+Terminal 2 — Interview:
+cd "D:\Projects\Major project"
+venv\Scripts\activate
+cd "D:\Projects\Major project\Mock Interview\FullPipeline"
+python interview.py
+
+Quick connection test before running interview
+Run this in a third terminal on your laptop to confirm both servers are reachable:
+cmd
+curl http://127.0.0.1:8000/health
+curl http://10.1.12.31:11434/api/tags
+
+Both should return JSON. If the second one fails, Ollama on the GPU machine isn't bound to 0.0.0.0 — redo the taskkill + set OLLAMA_HOST + ollama serve steps on the GPU machine.

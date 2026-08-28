@@ -1,0 +1,31 @@
+# ── Core interview pipeline ───────────────────────────────────
+faster-whisper
+fastapi
+uvicorn
+python-multipart
+
+# ── LLM / HTTP ────────────────────────────────────────────────
+requests
+
+# ── Speech to text / audio ────────────────────────────────────
+sounddevice
+soundfile
+numpy
+
+# ── Text to speech ────────────────────────────────────────────
+edge-tts
+pygame
+
+# ── Facial analysis ───────────────────────────────────────────
+deepface
+tf-keras
+opencv-python
+
+# ── Resume reading ────────────────────────────────────────────
+pdfplumber
+python-docx
+
+# ── PyTorch (CPU) ─────────────────────────────────────────────
+torch
+torchvision
+torchaudio

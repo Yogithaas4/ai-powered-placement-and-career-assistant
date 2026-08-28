@@ -1,0 +1,48 @@
+{
+  "domain": "Data Scientist",
+  "device": "cpu",
+  "resume_snippet": "Priya Nair\npriya.nair@outlook.com  |  +91-9901122334  |  Hyderabad, India  |  github.com/priyanair\nSummary\nData Scientist with 4 years of experience in building predictive models and data pipelines. Strong background in NLP, computer vision, and large-scale data processing. Experienced at translating business problems into ML solutions.\nSkills\nPython, R, Machine Learning, Deep Learning, NLP, Computer Vision, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, SQL, Spark, Hadoop, Tableau, Power BI,",
+  "jd_snippet": "We are looking for a skilled and motivated Data Scientist to analyze complex datasets, develop machine learning models, and generate actionable insights that support business decision-making. The ideal candidate should have strong knowledge of statistics, machine learning, data analysis, and programming, along with the ability to communicate technical findings effectively to both technical and non-technical stakeholders.",
+  "questions": [
+    {
+      "question": "Can you tell me a little bit about yourself and how you ended up becoming a data scientist?",
+      "answer": "I started my career at thesis and then moved on to flip-flit as senior data, so at this  we had opportunity to work on more complex long-skilled columns.  I read a team that developed a project recommendation using collaborative data.  What attracted me to data science is the combination. | Follow-up: [No answer detected]",
+      "feedback": "Interesting, so you started in academia and then moved to industry, and it's the combination of data science that really drew you in?"
+    },
+    {
+      "question": "I noticed you worked on a product recommendation engine at Flipkart.",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "Interesting, so you picked up on that specific project. Can you tell me more about what you liked about working on that product recommendation engine?"
+    },
+    {
+      "question": "How did you decide which algorithms to use for the product recommendation engine, and what metrics did you use to evaluate its performance?",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "Interesting that you didn't mention which algorithms you used for the product recommendation engine. Can you walk me through your thought process on that?"
+    },
+    {
+      "question": "What kind of data processing techniques did you use to process the 10TB+ of daily user event data at Flipkart, and how did you ensure the models were scalable and performant?",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "That's a big data processing task. Can you walk me through your approach to processing that large dataset?"
+    },
+    {
+      "question": "How did you leverage your knowledge of deep learning and NLP to develop the customer review sentiment analysis model using BERT and PyTorch at Flipkart?",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "That's a great start, but I'm a bit surprised you didn't dive deeper into your experience with BERT and PyTorch. Can you walk me through how you fine-tuned the BERT model for this specific task and what kind of improvements you saw in the sentiment analysis results?"
+    },
+    {
+      "question": "Can you walk me through your approach to handling class imbalance in the churn prediction model you built at TCS?",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "That's a pretty important question for a churn prediction model. Can you take a stab at it now?"
+    },
+    {
+      "question": "What aspects of this Data Scientist role at our company excite you the most?",
+      "answer": "[No answer detected] | Follow-up: [No answer detected]",
+      "feedback": "That's a pretty open-ended question, and I'm not seeing a clear answer. Can you help me understand what specific aspects of this role excite you?"
+    }
+  ],
+  "emotion_per_q": [
+    {
+      "question_num": 1,
+      "dominant": "sad",
+      "scores": {
+        "angry": 
