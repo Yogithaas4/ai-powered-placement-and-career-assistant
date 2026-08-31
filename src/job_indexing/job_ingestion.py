@@ -275,13 +275,18 @@ class JobIngestionEngine:
 
             embeddings_list.append(emb)
 
-        # Add to ChromaDB
-        self.collection.add(
-            ids=ids,
-            documents=documents,
-            metadatas=metadatas,
-            embeddings=embeddings_list
-        )
+               # Add to ChromaDB in batches (Chroma enforces a max batch size per .add() call)
+        BATCH_SIZE = 5000  # safely under the ~5461 limit seen in this environment
+        total = len(ids)
+        for start in range(0, total, BATCH_SIZE):
+            end = min(start + BATCH_SIZE, total)
+            self.collection.add(
+                ids=ids[start:end],
+                documents=documents[start:end],
+                metadatas=metadatas[start:end],
+                embeddings=embeddings_list[start:end],
+            )
+            print(f"  ✓ Stored batch {start}-{end} of {total}")
 
         print(f"✅ Stored {len(ids)} jobs in ChromaDB")
 

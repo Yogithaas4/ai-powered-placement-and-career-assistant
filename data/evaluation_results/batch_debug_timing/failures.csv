@@ -1,0 +1,4 @@
+﻿resume_id,filename,category,error
+ACCOUNTANT/10554236.pdf,10554236.pdf,ACCOUNTANT,NameError: name 'model_rows' is not defined
+ACCOUNTANT/10674770.pdf,10674770.pdf,ACCOUNTANT,NameError: name 'model_rows' is not defined
+ACCOUNTANT/11163645.pdf,11163645.pdf,ACCOUNTANT,NameError: name 'model_rows' is not defined

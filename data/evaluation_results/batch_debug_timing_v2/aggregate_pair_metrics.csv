@@ -1,0 +1,10 @@
+﻿model_a,model_b,metric,n,mean,median,std,ci95_low,ci95_high
+ColBERT,CrossEncoder,rbo,15,0.32424,0.2207,0.263741,0.190769,0.457711
+ColBERT,CrossEncoder,jaccard_at_10,15,0.333767,0.1765,0.320221,0.171713,0.495821
+ColBERT,CrossEncoder,overlap_at_10,15,4.333333,3.0,3.039424,2.795173,5.871494
+ConFit v2,ColBERT,rbo,15,0.338153,0.3641,0.102873,0.286092,0.390214
+ConFit v2,ColBERT,jaccard_at_10,15,0.2509,0.25,0.09041,0.205146,0.296654
+ConFit v2,ColBERT,overlap_at_10,15,3.933333,4.0,1.162919,3.344815,4.521852
+ConFit v2,CrossEncoder,rbo,15,0.178473,0.1479,0.1195,0.117998,0.238949
+ConFit v2,CrossEncoder,jaccard_at_10,15,0.157187,0.1765,0.09989,0.106635,0.207738
+ConFit v2,CrossEncoder,overlap_at_10,15,2.6,3.0,1.454058,1.864145,3.335855

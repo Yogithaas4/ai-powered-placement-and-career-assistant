@@ -153,7 +153,7 @@ class CrossEncoderEngine(BaseMatcher):
         super().__init__(jobs_db_dir=jobs_db_dir, jobs_csv=jobs_csv)
 
         self.jobs_db_dir = jobs_db_dir or str(DATA_DIR / "jobs_db")
-        self.jobs_csv = jobs_csv or str(DATA_DIR / "jobs" / "cs_engineering_jobs.csv")
+        self.jobs_csv = jobs_csv or str(DATA_DIR / "jobs" / "all_jobs_v3_fixed.csv")
         self.batch_size = batch_size
 
         # Load job ChromaDB

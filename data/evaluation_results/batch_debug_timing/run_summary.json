@@ -1,0 +1,15 @@
+{
+  "resume_root": "C:\\Users\\Student1\\Downloads\\archive\\data\\data",
+  "output_dir": "data\\evaluation_results\\batch_debug_timing",
+  "config": {
+    "top_k": 15,
+    "chroma_pool": 60,
+    "hre_mode": "rule"
+  },
+  "total_found": 3,
+  "succeeded": 0,
+  "failed": 3,
+  "skipped_already_done": 0,
+  "elapsed_seconds": 548.0,
+  "timestamp": "2026-08-25T16:21:57"
+}

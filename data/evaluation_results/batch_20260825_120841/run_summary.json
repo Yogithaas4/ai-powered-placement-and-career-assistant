@@ -1,0 +1,15 @@
+{
+  "resume_root": "C:\\Users\\Student1\\Downloads\\archive\\data\\data",
+  "output_dir": "C:\\Users\\Student1\\Downloads\\ai-powered-placement-and-career-assistant\\data\\evaluation_results\\batch_20260825_120841",
+  "config": {
+    "top_k": 15,
+    "chroma_pool": 60,
+    "hre_mode": "rule"
+  },
+  "total_found": 10,
+  "succeeded": 10,
+  "failed": 0,
+  "skipped_already_done": 0,
+  "elapsed_seconds": 585.1,
+  "timestamp": "2026-08-25T12:18:33"
+}

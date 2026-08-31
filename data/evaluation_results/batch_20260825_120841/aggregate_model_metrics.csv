@@ -1,0 +1,16 @@
+﻿model,metric,n,mean,median,std,ci95_low,ci95_high
+ColBERT,semantic_alignment,10,0.7732,0.769286,0.019245,0.761272,0.785128
+ColBERT,n_recommendations,10,15.0,15.0,0.0,15.0,15.0
+ColBERT,avg_score,10,0.77102,0.76455,0.053091,0.738114,0.803926
+ColBERT,top5_avg,10,0.83603,0.842,0.038547,0.812139,0.859921
+ColBERT,top5_vs_next5_gap,10,0.07625,0.06955,0.02654,0.0598,0.0927
+ConFit v2,semantic_alignment,10,0.750629,0.746269,0.027029,0.733876,0.767381
+ConFit v2,n_recommendations,10,15.0,15.0,0.0,15.0,15.0
+ConFit v2,avg_score,10,0.80986,0.81205,0.012477,0.802126,0.817594
+ConFit v2,top5_avg,10,0.81842,0.82105,0.011923,0.81103,0.82581
+ConFit v2,top5_vs_next5_gap,10,0.00945,0.0098,0.002497,0.007902,0.010998
+CrossEncoder,semantic_alignment,10,0.765295,0.768795,0.028164,0.747838,0.782752
+CrossEncoder,n_recommendations,10,15.0,15.0,0.0,15.0,15.0
+CrossEncoder,avg_score,10,0.33922,0.30315,0.092401,0.281949,0.396491
+CrossEncoder,top5_avg,10,0.3955,0.33805,0.147632,0.303997,0.487003
+CrossEncoder,top5_vs_next5_gap,10,0.06859,0.05045,0.065257,0.028144,0.109036

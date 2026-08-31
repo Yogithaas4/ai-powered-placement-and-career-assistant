@@ -61,12 +61,41 @@ def embed(text: str) -> list:
     """Embed a single text string. Returns list of floats."""
     if not text.strip():
         return []
-    model  = _get_model()
+    model = _get_model()
     vector = model.encode(
         f"Represent this resume for job matching: {text}",
         normalize_embeddings=True
     )
     return vector.tolist()
+
+
+def embed_batch(texts: list) -> list:
+    """
+    Batch-embed multiple texts in a single model.encode() call.
+
+    Much faster than calling embed() in a loop for many short texts, since
+    per-call overhead (tokenization, GPU dispatch) is amortized across the
+    whole batch instead of paid once per text.
+
+    Args:
+        texts: list of strings (may include empty strings)
+
+    Returns:
+        list of embedding vectors (list[float]), same length and order as
+        input `texts`. Empty/whitespace-only entries map to an empty list [].
+    """
+    non_empty_idx = [i for i, t in enumerate(texts) if t and t.strip()]
+    if not non_empty_idx:
+        return [[] for _ in texts]
+
+    model = _get_model()
+    prefixed = [f"Represent this resume for job matching: {texts[i]}" for i in non_empty_idx]
+    vectors = model.encode(prefixed, normalize_embeddings=True)
+
+    result = [[] for _ in texts]
+    for idx, vec in zip(non_empty_idx, vectors):
+        result[idx] = vec.tolist()
+    return result
 
 
 def build_section_embeddings(sections: dict) -> dict:

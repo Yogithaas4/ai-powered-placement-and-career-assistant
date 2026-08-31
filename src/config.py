@@ -9,4 +9,4 @@ RECOMMENDATIONS_DIR = DATA_DIR / "recommendations"
 RESUMES_DIR = DATA_DIR / "resumes"
 
 CHROMA_PATH = str(DATA_DIR / "chroma_db")
-DEFAULT_JOBS_CSV = str(JOBS_DIR / "cs_engineering_jobs.csv")
+DEFAULT_JOBS_CSV = str(JOBS_DIR / "all_jobs_v3_fixed.csv")

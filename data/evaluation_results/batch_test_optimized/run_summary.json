@@ -1,0 +1,15 @@
+{
+  "resume_root": "C:\\Users\\Student1\\Downloads\\archive\\data\\data",
+  "output_dir": "data\\evaluation_results\\batch_test_optimized",
+  "config": {
+    "top_k": 15,
+    "chroma_pool": 60,
+    "hre_mode": "rule"
+  },
+  "total_found": 10,
+  "succeeded": 10,
+  "failed": 0,
+  "skipped_already_done": 0,
+  "elapsed_seconds": 584.5,
+  "timestamp": "2026-08-25T12:43:48"
+}

@@ -23,8 +23,10 @@ _skill_extractor = None
 def _get_nlp():
     global _nlp
     if _nlp is None:
-        print("[+] Loading spaCy model (en_core_web_lg)...")
+        print("[+] Loading spaCy model (en_core_web_lg)...")  # already there
         _nlp = spacy.load("en_core_web_lg")
+    else:
+        print("[DEBUG] Reusing cached spaCy model")  # add this
     return _nlp
 
 
