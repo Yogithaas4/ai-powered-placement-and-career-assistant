@@ -341,7 +341,7 @@ class HybridPipelineEngine(BaseMatcher):
         self,
         preprocessed: dict,
         top_k: int = 20,
-        stage1_n_results: int = 100,
+        stage1_n_results: int = 1000,
         colbert_top_n: int = 100,
         experience_tolerance: Optional[int] = None,
         final_score_weights: Optional[Dict[str, float]] = None,
@@ -382,7 +382,7 @@ class HybridPipelineEngine(BaseMatcher):
             return []
 
         resume_vec = np.array(preprocessed["embeddings"]["query_vector"])
-        n_recall = min(int(stage1_n_results), 500)
+        n_recall = min(int(stage1_n_results), 1000)
 
         results = self.collection.query(
             query_embeddings=[resume_vec.tolist()],
@@ -599,7 +599,7 @@ if __name__ == "__main__":
     parser.add_argument("--resume-index", type=int, default=0,
                         help="Index in JSON array")
     parser.add_argument("--top-k", type=int, default=20)
-    parser.add_argument("--stage1-n-results", type=int, default=100)
+    parser.add_argument("--stage1-n-results", type=int, default=1000)
     parser.add_argument("--colbert-top-n", type=int, default=100)
     parser.add_argument("--experience-tolerance", type=int, default=1)
     parser.add_argument("--output", default=None)
